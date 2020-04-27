@@ -1,0 +1,30 @@
+<h2 class="pattern-header" id="typography">Typography</h2>
+<section class="pattern-section">
+  <p class="pattern-text">
+    Icons will automatically appear after the link text when linking to one of these file types. No additional code is required.
+  </p>
+  <div class="display-box">
+    <p><a href="file.txt">Text File (.txt)</a></p>
+    <p><a href="file.pdf">PDF File (.pdf)</a></p>
+    <p><a href="file.doc">Word File (.doc)</a></p>
+    <p><a href="file.xls">Excel File (.xls)</a></p>
+    <p><a href="file.ppt">Powerpoint File (.ppt)</a></p>
+    <p><a href="file.zip">Zip File (.zip)</a></p>
+    <p><a href="file.mp3">Sound File (.mp3)</a></p>
+    <p><a href="file.mov">Video File (.mov)</a></p>
+  </div>
+  <p class="pattern-text">
+    Icons will also automatically appear before button text.
+  </p>
+  <div class="display-box">
+    <p><a href="file.doc" class="btn btn-lg blue">Word File (.doc)</a></p>
+  </div>
+  <p class="pattern-text">
+    Image files and zipped code files require a helper class <code>.file-icon</code> for links and buttons.
+  </p>
+  <div class="display-box">
+    <p><a href="file.png" class="file-icon">Image File (.png)</a></p>
+    <p><a href="file.html.zip" class="file-icon">Code File (.html.zip)</a></p>
+    <p><a href="file.png" class="btn btn-lg blue file-icon">Image File (.png)</a></p>
+  </div>
+</section>

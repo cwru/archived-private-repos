@@ -1,0 +1,53 @@
+@each $name, $files in $file-types {
+    /*** #{$name} ***/
+    a[href$=".#{$name}"]:after {
+      content: "'" + map-get($files, content) + "'";
+      color: map-get($files, iconcolor) !important;
+      padding-left:3px;
+      padding-right:2px;
+      display: inline-block;
+      line-height: 14px;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a.no-icon[href$=".#{$name}"]:after {
+      content: "";
+    }
+    a.btn[href$=".#{$name}"]:before {
+      content: "'" + map-get($files, content) + "'";
+      color: #ffffff !important;
+      padding-right:5px;
+      display: inline-block;
+      line-height: 14px;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a.btn.no-icon[href$=".#{$name}"]:before {
+      content: "";
+    }
+    a.btn.white[href$=".#{$name}"]:before,
+    a.btn.default[href$=".#{$name}"]:before,
+    a.btn.gray-light[href$=".#{$name}"]:before {
+      color: map-get($files, iconcolor) !important;
+    }
+    .carousel-caption a[href$=".#{$name}"]:after {
+      color: #ffffff !important;
+      padding-left:5px;
+    }
+    .white .carousel-caption a[href$=".#{$name}"]:after {
+      color: map-get($files, iconcolor) !important;
+      padding-right:5px;
+    }
+    ul li.list-group-item a[href$=".#{$name}"]:after,
+    .page-sidebar a[href$=".#{$name}"]:after,
+    a.btn[href$=".#{$name}"]:after {
+      content: "";
+      padding-left:0;
+    }
+}

@@ -1,0 +1,26 @@
+.feedEkList {
+    width: 100%;
+    list-style: disc;
+    background-color: #FFFFFF;
+    padding: 4px 6px 4px 40px;
+}
+.feedEkList li {
+    padding: 5px;
+}
+.feedEkList li:last-child {
+    border-bottom: none;
+}
+.itemTitle a {
+    font-weight: 600;
+    color: #3168a6;
+    text-decoration: none;
+    font-size: 20px;
+}
+.itemTitle a:hover {
+    text-decoration: underline;
+    color: #0a304e;
+}
+.itemDate {
+    font-size: 14px;
+    color: #AAAAAA;
+}

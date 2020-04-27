@@ -1,0 +1,157 @@
+RewriteEngine On
+
+ErrorDocument 400      /international/errors/400.html
+ErrorDocument 401      /international/errors/401.html
+ErrorDocument 403      /international/errors/403.html
+ErrorDocument 404      /international/errors/404.html
+ErrorDocument 500      /international/errors/500.html
+ErrorDocument 503      /international/errors/503.html
+
+RedirectMatch 301     /international/about/contact.html http://case.edu/international/about/contact-us.html
+RedirectMatch 301     /international/studyabroad http://www.case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/resources http://case.edu/international/students/
+RedirectMatch 301     /international/resources/global_perspective.html http://case.edu/international/student-global-perspectives/
+RedirectMatch 301     /international/resources/internationalservices.html http://case.edu/international/international-student-services/
+RedirectMatch 301     /international/resources/students_abroad.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/resources/studyabroad.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/about/associate.html http://case.edu/international/about/staff/david-fleshler.html
+RedirectMatch 301     /international/IEW* http://case.edu/international/programming/signature-events/international-education-week.html
+RedirectMatch 301     /international/iew* http://case.edu/international/programming/signature-events/international-education-week.html
+RedirectMatch 301     /international/IEW_2013* http://case.edu/international/programming/signature-events/international-education-week.html
+RedirectMatch 301     /international/iew_2013* http://case.edu/international/programming/signature-events/international-education-week.html
+RedirectMatch 301     /international/brazil* http://case.edu/international
+RedirectMatch 301     /international/brazil-science-without-borders* http://case.edu/international
+RedirectMatch 301     /international/ogs http://case.edu/international/office-of-global-strategy
+RedirectMatch 301     /international/news* http://www.case.edu/international/about/news.html
+RedirectMatch 301     /international/newsletterarticles* http://case.edu/international/about/newsletters/
+RedirectMatch 301     /international/NewsLetters* http://case.edu/international/about/newsletters/
+RedirectMatch 301     /international/annualreport* http://case.edu/international/about/annual-report.html
+RedirectMatch 301     /international/engagement* http://case.edu/international/about/annual-report.html
+RedirectMatch 301     /international/fulbrightscholar* http://case.edu/international/office-of-global-strategy/for-faculty-and-staff/fulbright-scholars.html
+RedirectMatch 301     /international/fulbright* http://case.edu/international/office-of-global-strategy/for-faculty-and-staff/fulbright-scholars.html
+RedirectMatch 301     /international/fulbrightScholar* http://case.edu/international/office-of-global-strategy/for-faculty-and-staff/fulbright-scholars.html
+RedirectMatch 301     /international/planningprocess* http://case.edu/international/office-of-global-strategy
+RedirectMatch 301     /international/exchange* http://case.edu/international/international-student-services/
+RedirectMatch 301     /international/fsgrants* http://case.edu/international/office-of-global-strategy/for-faculty-and-staff/seed-grants.html
+RedirectMatch 301     /international/globaltalk* http://case.edu/international/programming/signature-events/global-talk-series.html
+RedirectMatch 301     /international/holi* http://www.case.edu/international/programming/cultural-celebrations-series/holi.html
+RedirectMatch 301     /international/international_new* http://case.edu/international
+RedirectMatch 301     /international/iss* http://case.edu/international/international-student-services/
+RedirectMatch 301     /international/japan* http://case.edu/international/office-of-education-abroad/financial-information/scholarships.html
+RedirectMatch 301     /international/jerusalem* http://case.edu/international
+RedirectMatch 301     /international/ia http://case.edu/international/office-of-global-strategy/for-faculty-and-staff/developing-international-agreements.html
+RedirectMatch 301     /international/sitevisit http://case.edu/international/about/contact-us.html
+RedirectMatch 301     /international/FactsandFigures http://case.edu/international/about/facts-and-figures.html
+RedirectMatch 301     /international/spotlight http://case.edu/international/about/
+RedirectMatch 301     /international/studentsuccess http://case.edu/international/programming/signature-events/international-student-success-series.html
+RedirectMatch 301     /international/SuccessSeries http://case.edu/international/programming/signature-events/international-student-success-series.html
+RedirectMatch 301     /international/thinkinternational http://case.edu/international/about/newsletters/
+RedirectMatch 301     /international/edabroad/resources/contact.html http://case.edu/international/about/contact-us.html
+RedirectMatch 301     /international/edabroad/students/program_types.html http://case.edu/international/office-of-education-abroad/programs/terms-and-program-types.html
+RedirectMatch 301     /international/edabroad/resources/faq.html http://www.case.edu/international/office-of-education-abroad/frequently-asked-questions.html
+RedirectMatch 301     /international/edabroad/thinkStudyAbroadLongTerm.html http://case.edu/international/office-of-education-abroad/programs/terms-and-program-types.html
+RedirectMatch 301     /international/edabroad/students/scholarships.html http://case.edu/international/office-of-education-abroad/financial-information/scholarships.html
+RedirectMatch 301     /international/edabroad/students/chooseprogram.html http://case.edu/international/office-of-education-abroad/programs/
+RedirectMatch 301     /international/edabroad/resources/parents.html http://case.edu/international/office-of-education-abroad/parent-resources/
+RedirectMatch 301     /international/edabroad/resources/whileabroad.html http://case.edu/international/office-of-education-abroad/health-and-safety.html
+RedirectMatch 301     /international/edabroad/resources/safetyabroad.html http://case.edu/international/office-of-education-abroad/health-and-safety.html
+RedirectMatch 301     /international/edabroad/resources/medicalissues.html http://case.edu/international/office-of-education-abroad/health-and-safety.html
+RedirectMatch 301     /international/edabroad/resources/predeparture.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/resources/howtoapply.html http://case.edu/international/office-of-education-abroad/programs/application-and-preparation-process.html
+RedirectMatch 301     /international/edabroad/resources/financialaid.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/resources/forms.html http://case.edu/international/office-of-education-abroad/transferring-study-abroad-credit/
+RedirectMatch 301     /international/edabroad/resources/advice.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/resources/deptReps.html http://case.edu/international/office-of-education-abroad/transferring-study-abroad-credit/academic-representatives.html
+RedirectMatch 301     /international/edabroad/photowinners.html http://case.edu/international/office-of-education-abroad/returnee-resources.html
+RedirectMatch 301     /international/edabroad/PreviousWinners.html http://case.edu/international/office-of-education-abroad/returnee-resources.html
+RedirectMatch 301     /international/edabroad/students/photocontest.html http://case.edu/international/office-of-education-abroad/returnee-resources.html
+RedirectMatch 301     /international/edabroad/students/photo_contest_winners.html http://case.edu/international/office-of-education-abroad/returnee-resources.html
+RedirectMatch 301     /international/edabroad/students/photo_submission_form.html http://case.edu/international/office-of-education-abroad/returnee-resources.html
+RedirectMatch 301     /international/edabroad/students/photocontest_2012winners.html http://case.edu/international/office-of-education-abroad/returnee-resources.html
+RedirectMatch 301     /international/edabroad/announcements* http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/blogs* http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/faculty* http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/parents* http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/resources/chooseprogram.html http://case.edu/international/office-of-education-abroad/programs/
+RedirectMatch 301     /international/edabroad/resources/exchange.html http://case.edu/international/international-student-services/exchange-programs.html
+RedirectMatch 301     /international/edabroad/resources/gettingstarted.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/resources/studyabroad_fair.html http://case.edu/international/programming/signature-events/study-abroad-fair.html
+RedirectMatch 301     /international/edabroad/resources/traveldocs.html http://case.edu/international/international-student-services/visas/travel-re-entry-and-visa-renewal.html
+RedirectMatch 301     /international/edabroad/short-term* http://case.edu/international/office-of-education-abroad/programs/terms-and-program-types.html
+RedirectMatch 301     /international/edabroad/thinkabroad* http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/generation.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/thinkStudyAbroad.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/thinkStudyAbroadLongTerm.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/thinkStudyAbroadSummer.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/thinkWinterBreak.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/accessibility.html http://case.edu/international/office-of-education-abroad/health-and-safety.html#accessibility
+RedirectMatch 301     /international/edabroad/students/advice.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/communications.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/credit.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/cultureshock.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/deadlines.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/disabilities.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/emergency.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/finaid_scholarships.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/financialaid.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/forms.html http://case.edu/international/office-of-education-abroad/transferring-study-abroad-credit/
+RedirectMatch 301     /international/edabroad/students/getinvolved.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/lgbt.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/money.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/packing.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/pgms_majors.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/predeparture_fl.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/predeparture_Ind.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/resources.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/resume.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/revculture.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/underconstruction.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students/visadetails.html http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad http://case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/edabroad/students http://www.case.edu/international/students/
+RedirectMatch 301     /international/london* http://case.edu/international/office-of-education-abroad/programs/london.html
+RedirectMatch 301     /international/friendship https://case.edu/international/international-student-services/living-in-cleveland/international-friendship-program.html
+
+RedirectMatch 301     /international/about.html http://www.case.edu/international/about
+RedirectMatch 301     /international/about/staff.html http://www.case.edu/international/about/staff
+RedirectMatch 301     /international/about/newsletters.html http://www.case.edu/international/about/newsletters
+
+RedirectMatch 301     /international/office-of-global-strategy.html http://www.case.edu/international/office-of-global-strategy
+RedirectMatch 301     /international/office-of-global-strategy/visiting-committee.html http://www.case.edu/international/office-of-global-strategy/visiting-committee
+RedirectMatch 301     /international/office-of-global-strategy/for-faculty-and-staff.html http://www.case.edu/international/office-of-global-strategy/for-faculty-and-staff
+
+RedirectMatch 301     /international/international-student-services.html http://www.case.edu/international/international-student-services/
+RedirectMatch 301     /international/international-student-services/before-arrival.html http://www.case.edu/international/international-student-services/before-arrival/
+RedirectMatch 301     /international/international-student-services/student-life.html https://case.edu/international/international-student-services/living-in-cleveland/
+RedirectMatch 301     /international/international-student-services/visas.html http://www.case.edu/international/international-student-services/visas/
+RedirectMatch 301     /international/international-student-services/visas/employment-and-training.html http://www.case.edu/international/international-student-services/visas/employment-and-training/
+
+RedirectMatch 301     /international/office-of-education-abroad.html http://www.case.edu/international/office-of-education-abroad/
+RedirectMatch 301     /international/office-of-education-abroad/faculty-resources.html http://www.case.edu/international/office-of-education-abroad/faculty-resources/
+RedirectMatch 301     /international/office-of-education-abroad/financial-information.html http://www.case.edu/international/office-of-education-abroad/financial-information/
+RedirectMatch 301     /international/office-of-education-abroad/parent-resources.html http://www.case.edu/international/office-of-education-abroad/parent-resources/
+RedirectMatch 301     /international/office-of-education-abroad/programs.html http://www.case.edu/international/office-of-education-abroad/programs/
+RedirectMatch 301     /international/office-of-education-abroad/transferring-study-abroad-credit.html http://www.case.edu/international/office-of-education-abroad/transferring-study-abroad-credit/
+
+RedirectMatch 301     /international/faculty.html http://www.case.edu/international/faculty/
+RedirectMatch 301     /international/partners.html http://www.case.edu/international/partners/
+RedirectMatch 301     /international/student-global-perspectives.html http://www.case.edu/international/student-global-perspectives/
+RedirectMatch 301     /international/students.html http://www.case.edu/international/students/
+
+RedirectMatch 301     /international/programs.html http://www.case.edu/international/programming
+RedirectMatch 301     /international/programs/cultural-celebrations-series.html http://www.case.edu/international/programming/cultural-celebrations-series
+RedirectMatch 301     /international/programs/cultural-celebrations-series/asian-mid-autumn-festival.html http://www.case.edu/international/programming/cultural-celebrations-series/asian-mid-autumn-festival.html
+RedirectMatch 301     /international/programs/cultural-celebrations-series/holi.html http://www.case.edu/international/programming/cultural-celebrations-series/holi.html
+RedirectMatch 301     /international/programs/cultural-celebrations-series/lunar-new-year.html http://www.case.edu/international/programming/cultural-celebrations-series/lunar-new-year.html
+RedirectMatch 301     /international/programs/signature-events.html http://www.case.edu/international/programming/signature-events
+RedirectMatch 301     /international/programs/signature-events/global-talk-series.html http://www.case.edu/international/programming/signature-events/global-talk-series.html
+RedirectMatch 301     /international/programs/signature-events/international-achievement-dinner.html http://www.case.edu/international/programming/signature-events/international-achievement-dinner.html
+RedirectMatch 301     /international/programs/signature-events/international-education-week.html http://www.case.edu/international/programming/signature-events/international-education-week.html
+RedirectMatch 301     /international/programs/signature-events/international-graduation.html http://www.case.edu/international/programming/signature-events/international-graduation.html
+RedirectMatch 301     /international/programs/signature-events/international-student-success-series.html http://www.case.edu/international/programming/signature-events/international-student-success-series.html
+RedirectMatch 301     /international/programs/signature-events/study-abroad-fair.html http://www.case.edu/international/programming/signature-events/study-abroad-fair.html
+
+RedirectMatch 301     /international/aep http://www.case.edu/international/AEP/
+RedirectMatch 301     /international/aep/ http://www.case.edu/international/AEP/
+RedirectMatch 301     /international/lny /international/programming/lunar-new-year.html
+RedirectMatch 301     /international/lny/ /international/programming/lunar-new-year.html

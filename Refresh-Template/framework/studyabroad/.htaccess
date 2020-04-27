@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RedirectMatch 301     /studyabroad http://www.case.edu/international/office-of-education-abroad/

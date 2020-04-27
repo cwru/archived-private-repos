@@ -1,0 +1,15 @@
+<!-- BEGIN FEED MODULE /////// -->
+<section aria-label="rss feed" class="sub-feed">
+    <h3>Full Feed</h3>
+    <div id="rss-feed1" class="feed-container"></div>
+</section>
+<script>
+jQuery(function($) {
+    // This goes after the core scripts
+    // Headline, Date, Excerpt
+    $("#rss-feed1").empty().rss("http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", {
+        entryTemplate: '<li><a href="{url}" target="_blank" class="feed-container-title">{title}</a><div class="feed-container-date">{date}</div><div class="feed-container-content">{excerptBody200}</div></li>',
+        limit: 3
+    })
+})
+</script>

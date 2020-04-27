@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: http://www.case.edu/international/results/
+
+User-agent: Googlebot
+Disallow: http://www.case.edu/international/results/
+Noindex: http://www.case.edu/international/results/
+
+Sitemap: http://case.edu/international/sitemap.xml

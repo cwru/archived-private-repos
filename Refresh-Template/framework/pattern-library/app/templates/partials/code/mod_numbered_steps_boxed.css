@@ -1,0 +1,116 @@
+/* Note: these are the styles for the original numbered steps. They are required for both boxed and unboxed variations of the numbered steps. */
+
+.numbered-steps {
+  margin:22px;
+}
+.numbered-steps .step-row {
+  border-top: 2px solid #f5f5f5;
+  padding: 22px 0;
+  position: relative;
+}
+.numbered-steps .step-row .step-content {
+  margin-left: 65px;
+}
+.numbered-steps .step-row .step-number {
+  font-size: 26px;
+  border-radius: 50% !important;
+  float: left;
+  padding: 6px 18px;
+  background-color: #0a304e;
+  color: #fff;
+}
+.step-number::after {
+  position: absolute;
+  top: 95px;
+  bottom: 25px;
+  left: 26px;
+  display: block;
+  width: 2px;
+  content: "";
+  background-color: #f5f5f5;
+}
+.step-number.step-number-last::after {
+  display: none;
+}
+.numbered-steps .step-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0a304e;
+  padding-left: 22px;
+}
+.numbered-steps .step-row .step-subtitle {
+  font-weight: 600;
+  color: #626262;
+  padding-left: 22px;
+}
+.numbered-steps .step-info {
+  padding-left: 22px;
+}
+
+/* Start styles for content boxed */
+
+.numbered-steps.step-content-boxed .step-row .step-number {
+  background-color: #fff;
+  color: #0a304e;
+  border: 2px solid #eee;
+  box-shadow: 0 2px 0 0 #f5f5f5;
+}
+.numbered-steps.step-content-boxed.no-circle .step-row .step-number {
+  border: none;
+  box-shadow: none;
+  font-size: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  font-weight: 900;
+}
+.numbered-steps.step-content-boxed .step-row {
+  border-top: none;
+}
+.step-content-boxed .step-number::after {
+  bottom: 0;
+}
+.numbered-steps.step-content-boxed .step-content {
+  border: 2px solid #eee;
+  border-radius: 3px !important;
+  margin-left: 80px;
+  box-shadow: 0 2px 4px 0 #f5f5f5;
+}
+.numbered-steps.step-content-boxed .step-title {
+  padding: 10px 22px;
+  border-bottom: 2px solid #eee;
+  font-size: 20px;
+}
+.step-content-boxed .step-info,
+.step-with-images .step-content {
+  background-color: #f5f5f5;
+  padding: 0 22px;
+  box-shadow: 0 2px 4px -2px #eee inset;
+}
+.step-content-boxed .step-info p{
+  margin: 0;
+  padding: 15px 0;
+}
+.step-content-boxed .step-content::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 70px;
+  top: 40px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-right: 10px solid #eee;
+	border-bottom: 8px solid transparent;
+}
+.step-content-boxed .step-content::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 73px;
+  top: 40px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-right: 10px solid #fff;
+	border-bottom: 8px solid transparent;
+}

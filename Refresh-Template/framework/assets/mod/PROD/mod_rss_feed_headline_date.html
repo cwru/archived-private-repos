@@ -1,0 +1,15 @@
+<!-- BEGIN FEED MODULE /////// -->
+<section aria-label="rss feed" class="sub-feed">
+    <h3>Headline + Date</h3>
+    <div id="rss-feed2" class="feed-container"></div>
+</section>
+<script>
+jQuery(function($) {
+    // This goes after the core scripts
+    // Headline, Date
+    $("#rss-feed2").empty().rss("http://us6.campaign-archive1.com/feed?u=d4776879096f9725473aeb104&id=f148fd3e20", {
+        entryTemplate: '<li><a href="{url}" target="_blank" class="feed-container-title">{title}</a><div class="feed-container-date">{date}</div></li>',
+        limit: 3
+    })
+})
+</script>

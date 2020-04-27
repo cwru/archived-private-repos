@@ -1,0 +1,26 @@
+<!-- BEGIN FEED MODULE /////// -->
+<section aria-label="rss feed" class="sub-feed">
+    <h2 class="sr-only" tabindex="0">Something news feed</h2>
+    <div class="portlet box gray-light">
+        <div class="portlet-title">
+            <div class="tools">
+                <a href="http://us6.campaign-archive1.com/feed?u=d4776879096f9725473aeb104&id=f148fd3e20" class="newsfeed" title="Think:International RSS Feed" target="_blank"><span class="sr-only">get our news delivered via RSS</span></a>
+            </div>
+            <div class="caption"> Think:International </div>
+        </div>
+        <div class="portlet-body">
+            <div id="rss-feed2" class="feed-container"></div>
+            <a href="http://case.us6.list-manage.com/subscribe?u=d4776879096f9725473aeb104&id=f148fd3e20" class="btn blue btn-lg btn-min" target="_blank"> Subscribe </a>
+        </div>
+    </div>
+</section>
+<script>
+jQuery(function($) {
+    // This goes after the core scripts
+    // Headline, Date
+    $("#rss-feed2").empty().rss("http://us6.campaign-archive1.com/feed?u=d4776879096f9725473aeb104&id=f148fd3e20", {
+        entryTemplate: '<li><a href="{url}" target="_blank" class="feed-container-title">{title}</a><div class="feed-container-date">{date}</div></li>',
+        limit: 3
+    })
+})
+</script>

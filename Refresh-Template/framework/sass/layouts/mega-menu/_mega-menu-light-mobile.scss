@@ -1,0 +1,22 @@
+// BEGIN: Mega Menu
+
+$mega-menu_class:																'light-mobile';
+$mega-menu_mobile_shadow:														0px 3px 9px -4px rgba(0,0,0,0.25);
+
+$mega-menu_mobile_bg-color:                      								#c6c6c6; 
+$mega-menu_mobile_link-border-color:											#f7f7f7;	
+
+$mega-menu_mobile_primary-link-font-color:            							$brand-main-color;
+$mega-menu_mobile_primary-link-font-color-on-active:     						$brand-main-color-hover;
+
+$mega-menu_mobile_inner-dropdown-menu-head-color:         						$brand-main-color;
+$mega-menu_mobile_inner-dropdown-menu-link-color:                   			$brand-main-color;   
+$mega-menu_mobile_inner-dropdown-menu-link-color-on-active:         			$brand-main-color-hover;
+
+@import  'theme/mega-menu-mobile';
+
+@media (max-width: $screen-sm-max) { /* 991px */
+	.c-layout-header .c-navbar .c-mega-menu.c-mega-menu-light-mobile {
+  		box-shadow: $mega-menu_mobile_shadow;
+	}
+}

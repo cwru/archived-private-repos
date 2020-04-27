@@ -1,0 +1,56 @@
+/*********************************************/
+/***    Case Western Reserve University    ***/
+/***    QA Demo CSS                        ***/
+/***    Author: Ken Edwards                ***/
+
+/**********************************************
+***********************************************
+QA Demo
+***********************************************
+**********************************************/
+.login .logo {
+    margin: 0px auto 0;
+    padding: 0px;
+    text-align: center;
+}
+.login {
+    background-color: #0a304e!important;
+}
+.login .content {
+    background-color: #ffffff;
+    width: 1200px;
+    margin: 0px auto 10px;
+}
+.login .copyright {
+    color: #ffffff;
+}
+.login h4 {
+    font-weight: 400 !important;
+    text-align: center;
+}
+
+.login .content .form-title {
+    text-align: center;
+}
+
+.bg-yellow {
+    background: #C1AC46!important;
+}
+
+@media (max-width: 991px) {
+  .login .content {
+      width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .login .content {
+      width: 400px;
+  }
+}
+
+@media (max-width: 479px) {
+  .login .content {
+      width: 300px;
+  }
+}

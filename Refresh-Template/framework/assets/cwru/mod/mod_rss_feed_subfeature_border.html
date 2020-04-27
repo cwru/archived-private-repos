@@ -1,0 +1,16 @@
+<!-- BEGIN RSS SUBFEATURE NORMAL MODULE /////// -->
+<section aria-label="rss feed" class="sub-border sub-feed">
+    <h2 class="sr-only" tabindex="0">Subfeatures 1</h2>
+    <div id="rss-feed92"></div>
+</section>
+<script>
+jQuery(function($) {
+    // This goes after the core scripts
+    // Subfeature Border, 3 across
+    $("#rss-feed92").empty().rss("http://thedaily.case.edu/category/research/feed/", {
+        layoutTemplate: '<hr class="above"><div class="row eq-height borderbetween">{entries}</div><hr class="below">',
+        entryTemplate: '<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 subfeatures subfeatures-borderbetween"> <div class="thumbnail"> <a href="{url}" target="_blank"> <img class="media-object" src="{teaserImageUrl}" alt="{title}"> </a> <div class="caption"> <h2><a href="{url}" target="_blank">{title}</a></h2> <p class="feed-container-date">{date}</p><p>{excerptContent200}</p><a href="{url}" class="btn blue btn-lg btn-min" target="_blank"> Read More </a> </div></div></div>',
+        limit: 3
+    })
+})
+</script>

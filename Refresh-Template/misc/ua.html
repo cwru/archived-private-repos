@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<style type="text/css">
+html[data-useragent*='Windows Phone'] h1.winphone {
+  color: green;
+}
+html[data-useragent*='WPDesktop'] h1.winphone-desktop {
+  color: green;
+}
+html[data-useragent*='Edge'] h1.edge {
+  color: green;
+}
+html[data-vendor*='Google'] h1.chrome {
+  color: green;
+}
+html[data-useragent*='OPR'] h1.opera {
+  color: green;
+}
+html[data-vendor*='Apple'] h1.apple {
+  color: green;
+}
+</style>
+
+<h1 class="winphone">Windows Phone</h1>
+
+<h1 class="winphone-desktop">Windows Phone (Desktop)</h1>
+
+<h1 class="edge">Microsoft Edge</h1>
+
+<h1 class="chrome">Google Chrome-like</h1>
+
+<h1 class="opera">Opera</h1>
+
+<h1 class="apple">Safari</h1>
+
+
+<hr>
+<div id="demo"></div>
+
+
+<script>
+var txt = "";
+txt += "<p>navigator.appCodeName: " + navigator.appCodeName + "</p>";
+txt += "<p>navigator.appName: " + navigator.appName + "</p>";
+txt += "<p>navigator.appVersion: " + navigator.appVersion + "</p>";
+txt += "<p>navigator.cookieEnabled: " + navigator.cookieEnabled + "</p>";
+txt += "<p>navigator.language: " + navigator.language + "</p>";
+txt += "<p>navigator.onLine: " + navigator.onLine + "</p>";
+txt += "<p>navigator.platform: " + navigator.platform + "</p>";
+txt += "<p>navigator.userAgent: " + navigator.userAgent + "</p>";
+txt += "<p>navigator.vendor: " + navigator.vendor + "</p>";
+
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+<script>
+var ua = document.documentElement;
+ua.setAttribute('data-useragent',  navigator.userAgent);
+ua.setAttribute('data-vendor',  navigator.vendor);
+
+</script>
+</body>
+</html>

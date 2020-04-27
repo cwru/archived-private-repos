@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+  <meta charset="utf-8" />
+  <!-- BEGIN TOUCH CONFIG -->
+  <link rel="apple-touch-icon" sizes="57x57" href="../assets/cwru/img/apple-touch-icon-57x57.png?v=2">
+  <link rel="apple-touch-icon" sizes="60x60" href="../assets/cwru/img/apple-touch-icon-60x60.png?v=2">
+  <link rel="apple-touch-icon" sizes="72x72" href="../assets/cwru/img/apple-touch-icon-72x72.png?v=2">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/cwru/img/apple-touch-icon-76x76.png?v=2">
+  <link rel="apple-touch-icon" sizes="114x114" href="../assets/cwru/img/apple-touch-icon-114x114.png?v=2">
+  <link rel="apple-touch-icon" sizes="120x120" href="../assets/cwru/img/apple-touch-icon-120x120.png?v=2">
+  <link rel="apple-touch-icon" sizes="144x144" href="../assets/cwru/img/apple-touch-icon-144x144.png?v=2">
+  <link rel="apple-touch-icon" sizes="152x152" href="../assets/cwru/img/apple-touch-icon-152x152.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/cwru/img/apple-touch-icon-180x180.png?v=2">
+  <link rel="icon" type="image/png" href="../assets/cwru/img/favicon-32x32.png?v=2" sizes="32x32">
+  <link rel="icon" type="image/png" href="../assets/cwru/img/android-chrome-192x192.png?v=2" sizes="192x192">
+  <link rel="icon" type="image/png" href="../assets/cwru/img/favicon-96x96.png?v=2" sizes="96x96">
+  <link rel="icon" type="image/png" href="../assets/cwru/img/favicon-16x16.png?v=2" sizes="16x16">
+  <link rel="manifest" href="manifest.json?v=3">
+  <link rel="mask-icon" href="../assets/cwru/img/safari-pinned-tab.svg?v=2" color="#0a304e">
+  <link rel="shortcut icon" href="../assets/cwru/img/favicon.ico?v=2">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="CWRU QA">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="application-name" content="Case Western Reserve University">
+  <meta name="msapplication-navbutton-color" content="#0a304e">
+  <meta name="msapplication-TileColor" content="#0a304e" />
+  <meta name="msapplication-tooltip" content="Case Western Reserve University">
+  <meta name="msapplication-TileImage" content="../assets/cwru/img/mstile-144x144.png">
+  <meta name="msapplication-config" content="../assets/cwru/img/browserconfig.xml" />
+  <meta name="theme-color" content="#0a304e">
+  <!-- END TOUCH CONFIG -->
+  <title>CWRU | QA Testing Suite</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+  <!-- BEGIN GLOBAL MANDATORY STYLES -->
+  <link href="http://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,400,400italic,600,600italic,700,700italic"
+    rel="stylesheet" type="text/css" />
+  <link href="../assets/cwru/css/fonts1470857553.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/global/plugins/bootstrap/css/bootstrap1470862077.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/global/css/components.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/layout/css/theme/default.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/cwru/css/styles.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/pages/css/login.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/cwru/css/qademo.css" rel="stylesheet" type="text/css" />
+  <!-- END THEME LAYOUT STYLES -->
+  <!--[if lt IE 9]>
+    <script src="../assets/global/plugins/respond.min.js"></script>
+    <script src="../assets/global/plugins/excanvas.min.js"></script>
+    <script src="../assets/cwru/plugins/html5shiv/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  <script>
+    (function () {
+      var cx = '016962587534473317125:ryu2r3ud_fw';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+</head>
+<!-- END HEAD -->
+
+<body class="login">
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '660092754141695',
+        xfbml: true,
+        version: 'v2.7'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <div class="logo">
+    <a href="index.html">
+      <img src="../assets/cwru/img/mstile-310x150.png" alt="Case Western Reserve University" style="width: 300px;" />
+    </a>
+  </div>
+  <div class="content">
+    <h1 class="form-title font-blue">Quality Assurance Test Suite</h1>
+    <div class="alert alert-info">
+      <p>Please log all QA issues you find in Teamwork in the Quality Assurance (GitHub) Task List.</p>
+    </div>
+    <!--[if lte IE 9]>
+                        <div class="alert alert-warning not-supported">
+                            <h4 class="block" style="text-align: left;"><i class="fa fa-warning" aria-hidden="true"></i> Notice to Internet Explorer Users</h4>
+                            <p> The version of Internet Explorer you're using is no longer updated by Microsoft.  If you're stuck on an old version of Windows and you're unable to upgrade Internet Explorer any further, we recommend using a <a href="http://browsehappy.com" target="_blank" class="alert-link">different browser</a>.  If your browser is up to date and you are still seeing this message it is possible you are viewing this site in <a href="http://windows.microsoft.com/en-us/internet-explorer/use-compatibility-view#ie=ie-10" target="_blank" class="alert-link">compatibility view.</a> </p>
+                        </div>
+                        <![endif]-->
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="list-group">
+          <li class="list-group-item"> <a href="#site-heading">Site Headings</a>
+          </li>
+          <li class="list-group-item"> <a href="#site-menu">Site Menu</a>
+          </li>
+          <li class="list-group-item"> <a href="#sidebar-navigation">Sidebar Navigation</a>
+          </li>
+          <li class="list-group-item"> <a href="#site-footer">Site Footer</a>
+          </li>
+          <li class="list-group-item"> <a href="#file-icons">File Icons</a>
+          </li>
+          <li class="list-group-item"> <a href="#error-pages">Error Pages</a>
+          </li>
+          <li class="list-group-item"> <a href="#elements">Page Elements</a>
+          </li>
+          <li class="list-group-item"> <a href="#forms">Form Elements</a>
+          </li>
+          <li class="list-group-item"> <a href="#page-layouts">Page Layouts</a>
+            <span class="badge badge-info popovers" data-container="body" data-trigger="hover" data-placement="top"
+              data-content="Adding optimal width and height to placeholder images for all page layouts."
+              data-original-title="What's New?"> new </span>
+          </li>
+          <li class="list-group-item"> <a href="#production-templates">Production Templates</a>
+          </li>
+          <li class="list-group-item"> <a href="#includes">Includes</a>
+          </li>
+          <li class="list-group-item"> <a href="#modules">Modules</a>
+          </li>
+          <li class="list-group-item"> <a href="#tests">Misc. Tests</a>
+          </li>
+          <li class="list-group-item"> <a href="#other">Other Files</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <ul class="list-group">
+          <li class="list-group-item bg-black bg-font-black"> Non-final designs that generally showcase only an
+            element. Stuff might be broken.</li>
+          <li class="list-group-item bg-blue bg-font-black"> Final-ish design that generally showcase a complete
+            layout, top to bottom. (Approved by UMC)</li>
+          <li class="list-group-item bg-green bg-font-black"> Example demo content. Stuff might be broken.</li>
+          <li class="list-group-item bg-blue-light bg-font-black"> Production-ready code written with Includes (SSI).
+          </li>
+          <li class="list-group-item bg-gray bg-font-black"> Production-ready code written with Includes (SSI), no
+            Department, such as CIA. </li>
+          <li class="list-group-item bg-default bg-font-default"> Development template used for staging new features,
+            bug fixes, etc. Stuff might be broken.</li>
+          <li class="list-group-item bg-yellow"> Source code, will open in a new window. </li>
+          <li class="list-group-item bg-red bg-font-red"> Not Approved / DO NOT IMPLEMENT OR USE </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="form-title font-blue" id="site-heading">Site Heading</h4>
+        <a href="demo_header1.html" class="btn blue btn-block"> Header w/Department </a>
+        <a href="demo_header2.html" class="btn blue btn-block"> Header Alt w/Department </a>
+        <a href="demo_header3.html" class="btn blue btn-block"> Header w/o Department </a>
+        <a href="demo_header4.html" class="btn blue btn-block"> Header Alt w/o Department </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> The 'Alt' demo is for a Site Name that is long and will be displayed on two lines. This
+          will be an option for the end user.
+        </div>
+        <h4 class="form-title font-blue" id="site-menu">Site Menu</h4>
+        <a href="demo_menu1.html" class="btn blue btn-block"> Basic Menu w/Home </a>
+        <a href="demo_menu2.html" class="btn red btn-block"> Mega Menu Drop Down </a>
+        <a href="demo_menu3.html" class="btn red btn-block"> Pull Right Drop Downs Last Menu Item </a>
+        <a href="demo_menu4.html" class="btn blue btn-block"> Call To Action Button</a>
+        <a href="demo_menu6.html" class="btn blue btn-block"> Call To Action Button w/ Drop Down (not to be used with a
+          pull right drop down)</a>
+        <a href="demo_header1_fixed.html" class="btn red btn-block"> Header w/Department (Sticky Menu)</a>
+        <a href="demo_header2_fixed.html" class="btn red btn-block"> Header Alt w/Department (Sticky Menu)</a>
+        <a href="demo_header3_fixed.html" class="btn red btn-block"> Header w/o Department (Sticky Menu)</a>
+        <a href="demo_header4_fixed.html" class="btn red btn-block"> Header Alt w/o Department (Sticky Menu)</a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> Examples of all menu types, as well as a fixed menu that works with all four header
+          types.
+        </div>
+        <h4 class="form-title font-blue" id="sidebar-navigation">Sidebar Navigation</h4>
+        <a href="demo_sidebar1.html" class="btn black btn-block"> Sidebar Level 1 </a>
+        <a href="demo_sidebar2.html" class="btn black btn-block"> Sidebar Level 2 </a>
+        <a href="demo_sidebar3.html" class="btn black btn-block"> Sidebar Level 3 </a>
+        <a href="demo_sidebar4.html" class="btn black btn-block"> Sidebar Level 4 </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> The Sidebar navigation is linked up so you can see a real world demo, but not every
+          page has been created. The breadcrumbs are also linked up for you to move backwards up the link structure.
+        </div>
+        <h4 class="form-title font-blue" id="site-footer">Site Footer</h4>
+        <a href="demo_footer1.html" class="btn blue btn-block"> Site Footer </a>
+        <a href="demo_footer2.html" class="btn blue btn-block"> Site Footer w/o Social Media </a>
+        <a href="demo_footer4.html" class="btn blue btn-block"> Site + Department Footer </a>
+        <a href="demo_footer5.html" class="btn blue btn-block"> Site Footer With Two Schools </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> Options for the site footer. Department footer is not completed yet.
+        </div>
+        <h4 class="form-title font-blue" id="file-icons">File Icons</h4>
+        <a href="demo_filetype-txt.html" class="btn red btn-block"> Text File Icons </a>
+        <a href="demo_filetype-pdf.html" class="btn black btn-block"> PDF File Icons </a>
+        <a href="demo_filetype-word.html" class="btn black btn-block"> Word Icon </a>
+        <a href="demo_filetype-excel.html" class="btn black btn-block"> Excel Icon </a>
+        <a href="demo_filetype-powerpoint.html" class="btn black btn-block"> Powerpoint Icon </a>
+        <a href="demo_filetype-archive.html" class="btn black btn-block"> Archive File Icons </a>
+        <a href="demo_filetype-sound.html" class="btn black btn-block"> Sound File Icons </a>
+        <a href="demo_filetype-video.html" class="btn blue btn-block"> Video File Icons </a>
+        <a href="demo_filetype-image.html" class="btn black btn-block"> Image File Icons </a>
+        <a href="demo_filetype-code.html" class="btn black btn-block"> Code File Icons </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> File icons are automatically inserted based on the file extension with the exception of
+          image and code icons. Those require a special class added to the link.
+        </div>
+        <h4 class="form-title font-blue" id="error-pages">Error Pages</h4>
+        <a href="demo_error400.html" class="btn blue btn-block"> Error 400 </a>
+        <a href="demo_error401.html" class="btn blue btn-block"> Error 401 </a>
+        <a href="demo_error403.html" class="btn blue btn-block"> Error 403 </a>
+        <a href="demo_error404.html" class="btn blue btn-block"> Error 404 </a>
+        <a href="demo_error500.html" class="btn blue btn-block"> Error 500 </a>
+        <a href="demo_error503.html" class="btn blue btn-block"> Error 503 </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> These are error documents that can be custom to every site.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="form-title font-blue" id="page-layouts">Page Layouts</h4>
+        <h5 class="form-title font-blue" id="page-layouts">3 Main Homepage Templates</h5>
+        <a href="demo_home_fullwidth_feature.html" class="btn blue btn-block"> Homepage w/Full Width Feature </a>
+        <a href="demo_home3.html" class="btn blue btn-block"> Homepage w/Sidebar </a>
+        <a href="demo_home2.html" class="btn blue btn-block"> Homepage Text Heavy</a>
+        <h5 class="form-title font-blue" id="page-layouts">Homepage Template Options</h5>
+        <a href="demo_home1.html" class="btn blue btn-block"> Homepage 1 </a>
+        <a href="demo_home1_cia.html" class="btn blue btn-block"> Homepage 1 with Margin Around Feature Image (like
+          CIA)</a>
+        <a href="demo_home1_carousel.html" class="btn blue btn-block"> Homepage 1 (Carousel) </a>
+        <a href="demo_fluid_layout.html" class="btn blue btn-block"> Home Page Fluid Header Image </a>
+        <h5 class="form-title font-blue" id="page-layouts">Landing Page Templates</h5>
+        <a href="demo_landing1.html" class="btn blue btn-block"> Landing 1 </a>
+        <a href="demo_landing1_alt.html" class="btn blue btn-block"> Landing 1 Alt </a>
+        <a href="demo_landing2.html" class="btn blue btn-block"> Landing 2 </a>
+        <a href="demo_landing3.html" class="btn blue btn-block tooltips" data-container="body" data-placement="top"
+          data-original-title="Single column with extra padding below the hero image"> Landing 3 </a>
+        <a href="demo_two-column.html" class="btn blue btn-block" data-container="body" data-placement="top"
+          data-original-title="This layout has no sidebar"> Two Column Landing w/ Optional Hero Image</a>
+        <h5 class="form-title font-blue" id="page-layouts">Subpage Page Templates</h5>
+        <a href="demo_subpage.html" class="btn blue btn-block"> Standard Subpage</a>
+        <a href="demo_subpage_noaside.html" class="btn blue btn-block"> Standard Subpage w/o Aside</a>
+        <a href="demo_three_column.html" class="btn blue btn-block"> Three Column Subpage </a>
+        <a href="demo_single_column.html" class="btn red btn-block"> Single Column </a>
+        <h5 class="form-title font-blue" id="page-layouts">Story Page Templates</h5>
+        <a href="demo_story-page.html" class="btn blue btn-block"> Story Page </a>
+        <a href="demo_story-page2.html" class="btn blue btn-block"> Story Page w/o Hero Unit</a>
+        <h5 class="form-title font-blue" id="page-layouts">Staff Page Templates</h5>
+        <a href="demo_staff_list.html" class="btn blue btn-block"> Staff List </a>
+        <a href="demo_staff_list_alt.html" class="btn blue btn-block">Two Column Staff Listing</a>
+        <a href="demo_staff_profile.html" class="btn blue btn-block"> Staff Profile </a>
+        <a href="demo_staff_list_single.html" class="btn red btn-block">Single Column Staff List</a>
+        <h5 class="form-title font-blue" id="page-layouts">Article Page Templates</h5>
+        <a href="demo_news-page.html" class="btn blue btn-block"> Article Listing </a>
+        <a href="demo_news-page2.html" class="btn blue btn-block"> Article Listing w/o Thumbnail</a>
+        <a href="demo_news-story-page.html" class="btn blue btn-block"> Article </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> News has been renamed to Article to be consistent with commonly used taxonomy
+        </div>
+        <h5 class="form-title font-blue" id="page-layouts">A-Z Listings</h5>
+        <a href="demo_bulletin_AZ_list.html" class="btn blue btn-block"> A-Z Bulletin Page </a>
+        <h4 class="form-title font-blue" id="elements">Page Elements</h4>
+        <a href="demo_carousel_options.html" class="btn blue btn-block"> Carousel Options </a>
+        <a href="demo_carousel_lightbox.html" class="btn blue btn-block"> Carousel Lightbox </a>
+        <a href="demo_landing1.html" class="btn blue btn-block"> Tabbed Panel </a>
+        <a href="demo_landing1.html" class="btn blue btn-block"> Responsive Tables </a>
+        <a href="demo_subfeatures.html" class="btn black btn-block"> Subfeatures </a>
+        <a href="demo_wells.html" class="btn blue btn-block"> Wells </a>
+        <a href="demo_video.html" class="btn blue btn-block"> Video </a>
+        <a href="demo_googlecal.html" class="btn blue btn-block"> Google Calendar (Month) </a>
+        <a href="demo_googlecal_week.html" class="btn blue btn-block"> Google Calendar (Week) </a>
+        <a href="demo_googlecal_agenda.html" class="btn blue btn-block"> Google Calendar (Agenda) </a>
+        <a href="demo_googlecal_agenda2.html" class="btn red btn-block"> Google Calendar (Pull Right) </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> Examples of individual page elements.
+        </div>
+        <h4 class="form-title font-blue" id="forms">Form Elements</h4>
+        <a href="ex_form_controls.html" class="btn black btn-block"> Form Controls </a>
+        <a href="ex_form_validation.html" class="btn black btn-block"> Form Validation </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> Examples of individual page elements.
+        </div>
+        <h4 class="form-title font-blue" id="tests">Miscellaneous</h4>
+        <a href="demo_search_results.html?q=David+Fleshler&cx=016962587534473317125%3Aryu2r3ud_fw&ie=UTF-8#gsc.tab=0&gsc.ref=international_affairs&gsc.q=David%20Fleshler&gsc.page=1"
+          class="btn blue btn-block"> Google Search Results </a>
+        <a href="demo_google_tag_manager.html" class="btn black btn-block"> Google Tag Manager </a>
+        <a href="demo_twitter_cards.html" class="btn black btn-block"> Twitter Cards </a>
+        <a href="demo_same-height.html" class="btn black btn-block tooltips" data-container="body" data-placement="top"
+          data-original-title="With fallback to support IE 8 and 9"> Same Height Columns </a>
+        <a href="demo_large-menu.html" class="btn black btn-block"> Large Menu Test </a>
+        <a href="demo_large-menu-breakpoint.html" class="btn black btn-block"> Large Menu Breakpoint Test </a>
+        <a href="demo_accordions.html" class="btn black btn-block"> Accordion Test </a>
+        <a href="demo_googlemap.html" class="btn black btn-block"> Responsive iFrame </a>
+        <a href="demo_heading_test.html" class="btn black btn-block"> Heading Test </a>
+        <a href="demo_subfeatures_test.html" class="btn black btn-block"> Subfeatures Test </a>
+        <a href="demo_fluid_layout.html" class="btn black btn-block"> Fluid Layout </a>
+        <a href="demo_superembed.html" class="btn black btn-block"> Super Embed </a>
+        <a href="demo_fitvids.html" class="btn black btn-block"> FitVids </a>
+        <a href="demo_rss_jquery.html" class="btn black btn-block"> jQuery RSS Examples </a>
+        <a href="dev_rss_multi.html" class="btn default btn-block"> jQuery RSS (DEV) </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> Pages created just to test one element or another.
+        </div>
+        <h4 class="form-title font-blue" id="tests">Other Files</h4>
+        <a href="manifest.json" class="btn bg-yellow bg-font-default btn-block tooltips" data-container="body"
+          data-placement="top" data-original-title="Chrome and Android config file"> manifest.json </a>
+        <a href="../international/production/robots.txt" class="btn bg-yellow bg-font-default btn-block no-icon tooltips"
+          data-container="body" data-placement="top" data-original-title="File for search engines"> robots.txt </a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> Other files related to the template though not all HTML.
+        </div>
+      </div>
+      <!-- <div class="col-md-4">
+        <h4 class="form-title font-blue popovers" id="production-templates" data-container="body" data-trigger="hover" data-placement="top" data-content="Passes W3C Validation, based on global includes and module files." data-original-title="Production Templates">Development Testing</h4>
+        <a href="ssi_base_template.html" class="btn blue-light btn-block">Base Template</a>
+        <a href="cia_base_template.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs">CIA Base Template</a>
+        <a href="dev_base_template.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Base Template</a>
+        <a href="ssi_home1.html" class="btn blue-light btn-block"> Homepage w/ Carousel </a>
+        <a href="cia_home1.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Homepage w/ Carousel </a>
+        <a href="dev_home1.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Homepage w/ Carousel</a>
+        <a href="ssi_home3.html" class="btn blue-light btn-block"> Homepage w/ Sidebar </a>
+        <a href="cia_home3.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Homepage w/ Sidebar </a>
+        <a href="dev_home3.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Homepage w/ Sidebar</a>
+        <a href="ssi_landing1.html" class="btn blue-light btn-block"> Landing 1</a>
+        <a href="cia_landing1.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Landing 1</a>
+        <a href="dev_landing1.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Landing 1</a>
+        <a href="ssi_landing1_nohero.html" class="btn blue-light btn-block"> Landing 1 w/o Hero Unit</a>
+        <a href="cia_landing1_nohero.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Landing 1 w/o Hero Unit</a>
+        <a href="dev_landing1_nohero.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Landing 1 w/o Hero Unit</a>
+        <a href="ssi_landing2.html" class="btn blue-light btn-block"> Landing 2</a>
+        <a href="cia_landing2.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Landing 2</a>
+        <a href="div_landing2.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Landing 2</a>
+        <a href="ssi_landing3.html" class="btn blue-light btn-block"> Landing 3</a>
+        <a href="cia_landing3.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Landing 3</a>
+        <a href="dev_landing2.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Landing 3</a>
+        <a href="ssi_subpage.html" class="btn blue-light btn-block"> Standard Subpage</a>
+        <a href="cia_subpage.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Standard Subpage</a>
+        <a href="dev_subpage.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Standard Subpage</a>
+        <a href="ssi_subpage_noaside.html" class="btn blue-light btn-block"> Standard Subpage w/o Aside</a>
+        <a href="cia_subpage_noaside.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Standard Subpage w/o Aside</a>
+        <a href="dev_subpage_noaside.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Standard Subpage w/o Aside</a>
+        <a href="ssi_three_column.html" class="btn blue-light btn-block"> Thee Column Subpage</a>
+        <a href="cia_three_column.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Thee Column Subpage</a>
+        <a href="dev_three_column.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Thee Column Subpage</a>
+        <a href="ssi_single_column.html" class="btn blue-light btn-block"> Single Column</a>
+        <a href="cia_single_column.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Single Column</a>
+        <a href="dev_single_column.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Single Column</a>
+        <a href="ssi_staff_list.html" class="btn blue-light btn-block"> Staff List</a>
+        <a href="cia_staff_list.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Staff List</a>
+        <a href="dev_staff_list.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Staff List</a>
+        <a href="ssi_staff_list_single.html" class="btn blue-light btn-block"> Staff List w/o Sidebar</a>
+        <a href="cia_staff_list_single.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Staff List w/o Sidebar</a>
+        <a href="dev_staff_list_single.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Staff List w/o Sidebar</a>
+        <a href="ssi_staff_profile.html" class="btn blue-light btn-block"> Staff Profile</a>
+        <a href="cia_staff_profile.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Staff Profile</a>
+        <a href="dev_staff_profile.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Staff Profile</a>
+        <a href="ssi_error_document.html" class="btn blue-light btn-block"> Error Document</a>
+        <a href="cia_error_document.html" class="btn gray btn-block tooltips" data-container="body" data-placement="top" data-original-title="Center for International Affairs"> CIA Error Document</a>
+        <a href="dev_error_document.html" class="btn default btn-block tooltips" data-container="body" data-placement="top" data-original-title="Development Testing Only"> DEV Error Document</a>
+        <div class="alert alert-info" style="margin-top: 10px;">
+          <strong>Note</strong> These pages will only load locally if you are running Apache on your computer, and have aliased the framework/template directory correctly.
+        </div>
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-xs-12">
+        <h4 class="form-title font-blue" id="notes">Developer Notes</h4>
+        <ul>
+          <li>
+            We would only use VideoJS and HTML5 video is if we host it.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 margin-top-10">
+        <div class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+        </div>
+        <!--
+                <gcse:searchbox-only></gcse:searchbox-only>
+                -->
+      </div>
+    </div>
+  </div>
+  <div class="copyright"> © 2016 Case Western Reserve University </div>
+  <!-- END DEV BANNER -->
+  <!-- BEGIN CORE PLUGINS -->
+  <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+  <script src="../assets/cwru/plugins/jquery-mobile-touch/jquery.mobile.custom.min.js" type="text/javascript"></script>
+  <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+  <script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+  <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+  <script src="../assets/global/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js" type="text/javascript"></script>
+  <script src="../assets/cwru/plugins/paypal-accessibility/bootstrap-accessibility.js" type="text/javascript"></script>
+  <script src="../assets/cwru/plugins/jquery-gcal-flow/jquery.gcal.flow.js" type="text/javascript"></script>
+  <script src="../assets/cwru/plugins/jquery-gcal-flow/globalize.min.js" type="text/javascript"></script>
+  <script src="../assets/cwru/plugins/fitvids/jquery.fitvids.js" type="text/javascript"></script>
+  <script src="../assets/cwru/plugins/moment/moment.js" type="text/javascript"></script>
+  <script src="../assets/cwru/plugins/jquery-rss/src/jquery.rss.js" type="text/javascript"></script>
+  <!-- END CORE PLUGINS -->
+  <!-- BEGIN THEME GLOBAL SCRIPTS -->
+  <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+  <!-- END THEME GLOBAL SCRIPTS -->
+  <!-- BEGIN THEME LAYOUT SCRIPTS -->
+  <script src="../assets/layout/scripts/layout.min.js" type="text/javascript"></script>
+  <!-- END THEME LAYOUT SCRIPTS -->
+  <script type="text/javascript">
+    /*<![CDATA[*/
+    (function () {
+      var sz = document.createElement('script');
+      sz.type = 'text/javascript';
+      sz.async = true;
+      sz.src = '//siteimproveanalytics.com/js/siteanalyze_20243.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(sz, s);
+    })();
+  /*]]>*/
+  </script>
+</body>
+
+</html>

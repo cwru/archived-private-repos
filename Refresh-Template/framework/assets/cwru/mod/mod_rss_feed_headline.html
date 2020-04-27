@@ -1,0 +1,15 @@
+<!-- BEGIN FEED MODULE /////// -->
+<section aria-label="rss feed" class="sub-feed">
+    <h3>Headline</h3>
+    <div id="rss-feed3" class="feed-container"></div>
+</section>
+<script>
+jQuery(function($) {
+    // This goes after the core scripts
+    // Headline
+    $("#rss-feed3").empty().rss("http://feeds.abcnews.com/abcnews/topstories", {
+        entryTemplate: '<li><a href="{url}" target="_blank" class="feed-container-title">{title}</a></li>',
+        limit: 3
+    })
+})
+</script>

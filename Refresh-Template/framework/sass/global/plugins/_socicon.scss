@@ -1,0 +1,85 @@
+.socicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'socicon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.socicon-btn:empty
+.socicon:empty {
+    width: 1em;
+}
+
+.socicon-btn {
+    position: relative;
+  	display: inline-block;
+  	font-family: 'socicon';
+  	font-style: normal;
+  	font-weight: normal;
+  	line-height: 1;
+    -webkit-font-smoothing: antialiased;
+
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    padding-top: 11px;
+    font-size: 24px;
+    border: 1px solid $general-panel-border-color;
+    color: $general-panel-font-color;
+
+    transition: background, color 0.3s;
+
+    &.socicon-solid {
+    	border: 0;
+    	width: 46px;
+	    height: 46px;
+	    padding-top: 12px;
+    }
+
+    &.socicon-btn-circle {
+    	border-radius: 44px !important;
+    }
+
+    &:hover {
+    	transition: background, color 0.3s;
+      text-decoration: none;        
+    }  
+
+    &.socicon-lg {
+    	width: 54px;
+	    height: 54px;
+	    padding-top: 13px;
+	    font-size: 28px;
+
+	    &.socicon-solid {
+    		border: 0;
+    		width: 55px;
+	    	height: 55px;
+	    	padding-top: 13px;
+    	}
+    }
+
+ 	&.socicon-sm {
+    	width: 30px;
+	    height: 30px;
+	    padding-top: 8px;
+	    font-size: 16px;
+
+	    &.socicon-solid {
+    		border: 0;
+    		width: 30px;
+	    	height: 30px;
+	    	padding-top: 8px;
+    	}
+    }
+}
+
+.socicons {
+	.socicon-btn {
+		margin-bottom: 5px;
+	}
+}

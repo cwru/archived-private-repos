@@ -1,0 +1,178 @@
+/*********************************************/
+/*** Case Western Reserve University       ***/
+/*** Google CSE Override                   ***/
+
+.gsc-input-box {
+    border: 1px solid #D9D9D9;
+    background: #fff;
+    height: 46px;
+}
+.cse .gsc-control-cse, .gsc-control-cse {
+    padding: 0;
+    width: auto;
+    padding-top: 20px;
+}
+.gsib_a {
+    width: 100%;
+    padding: 12px 10px 0;
+}
+.gsst_a .gscb_a {
+    color: #3168a6;
+    cursor: pointer;
+}
+.gsst_a:hover .gscb_a,
+.gsst_a:focus .gscb_a {
+    color: #0a304e;
+}
+
+.gsst_b {
+    padding: 0 2px;
+    padding-top: 12px;
+}
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus {
+	border-color: #D9D9D9;
+}
+.gsc-search-box .gsc-input>input:hover,
+.gsc-input-box-hover {
+  border: 1px solid #b9b9b9;
+  border-top-color: #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  outline: none;
+}
+.gsc-search-box .gsc-input>input:focus,
+.gsc-input-box-focus {
+  border: 1px solid #0a304e;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  outline: none;
+}
+table.gsc-search-box td {
+    vertical-align: top;
+}
+.cse .gsc-search-button input.gsc-search-button-v2,
+input.gsc-search-button-v2 {
+    width: auto;
+    height: auto;
+    padding: 16px 27px;
+    min-width: 13px;
+    margin-top: 0px;
+	outline: none;
+}
+input.gsc-search-button {
+    margin-left: 0px;
+}
+.gs-webResult .gs-snippet, 
+.gs-imageResult .gs-snippet, 
+.gs-fileFormatType {
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+}
+.gsc-webResult.gsc-result .gs-snippet {
+    color: #0a304e;
+}
+.gs-bidi-start-align.gs-snippet {
+    color: #444444 !important;
+}
+.gs-no-results-result .gs-snippet,
+.gs-error-result .gs-snippet {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    padding: 15px;
+}
+.gs-image-box.gs-web-image-box {
+    margin-left: 7px;
+}
+div.gs-fileFormat,
+div.gs-bidi-start-align.gs-snippet,
+div.gs-per-result-labels {
+    margin-left: 7px;
+}
+.gsc-control-cse .gs-spelling, .gsc-control-cse .gs-result .gs-title, .gsc-control-cse .gs-result .gs-title * {
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
+.gsc-control-cse, .gsc-control-cse .gsc-table-result {
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+.gs-visibleUrl {
+    font-size: 17px;
+}
+span.gs-fileFormatType, span.gs-fileFormat {
+    font-size: 17px;
+}
+.gsc-tabsArea {
+    border-bottom: 1px solid #626262;
+    font-size: 18px;
+    height: 57px;
+}
+.gsc-tabHeader {
+    display: inline-block;
+    padding: 14px 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    height: 56px;
+    line-height: 27px;
+    min-width: 148px;
+    text-align: left;
+}
+.gsc-tabsArea > div {
+    height: 56px;
+    overflow: hidden;
+}
+.gsc-tabHeader.gsc-tabhActive {
+    border-color: #626262;
+    border-bottom-color: #626262;
+    background-color: #626262;
+    color: #ffffff;
+}
+.gsc-tabHeader.gsc-tabhInactive  {
+    border-color: #eeeeee;
+    border-bottom-color: #626262;
+    background-color: #eeeeee;
+    color: #3168a6;
+}
+.gsc-tabHeader.gsc-tabhInactive:focus, .gsc-tabHeader.gsc-tabhInactive:hover {
+    border-color: #dedede;
+    border-bottom-color: #626262;
+    background-color: #dedede;
+    color: #3168a6;
+}
+.gsc-results .gsc-cursor-box {
+    margin-top: 10px;
+    text-align: left;
+}
+.gsc-results .gsc-cursor {
+    margin: 10px 0;
+    display: inline-block;
+    color: #444;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    text-decoration: none !important;
+    color: #444;
+    background-color: #fff;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+    padding: 10px 16px;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page:focus, .gsc-results .gsc-cursor-box .gsc-cursor-page:hover {
+    color: #fff;
+    background-color: #3168a6;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page, .gsc-results .gsc-cursor-box .gsc-cursor-current-page:hover, .gsc-results .gsc-cursor-box .gsc-cursor-current-page:focus {
+    cursor: default;
+    color: #eee;
+    background-color: #0a304e;
+}

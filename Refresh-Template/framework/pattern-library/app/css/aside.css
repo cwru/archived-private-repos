@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.affix-top, .affix {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  width: 200px;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+
+.affix-top:last-child, .affix:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .affix-top, .affix {
+    display: none;
+  }
+}
+
+.affix-top span, .affix span {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #0a304e;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.affix-top ul, .affix ul {
+  padding: 0;
+}
+
+.affix-top ul li, .affix ul li {
+  list-style: none;
+  line-height: 1.8em;
+}
+
+.affix {
+  top: 30px;
+}

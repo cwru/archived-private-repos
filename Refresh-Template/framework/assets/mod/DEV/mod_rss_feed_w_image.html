@@ -1,0 +1,17 @@
+<!-- BEGIN FEED MODULE /////// -->
+<section aria-label="rss feed" class="sub-feed">
+    <h3>The Daily</h3>
+    <div class="search-page search-content-1">
+        <div id="rss-feed6" class="search-container"></div>
+    </div>
+</section>
+<script>
+jQuery(function($) {
+    // This goes after the core scripts
+    // First image in the description
+    $("#rss-feed6").empty().rss("http://thedaily.case.edu/category/research/feed/", {
+        entryTemplate: '<li class="search-item clearfix"> <a href="{url}" target="_blank"> <img src="{teaserImageUrl}" alt="{title}" class="img-responsive media-object"> </a> <div class="search-content"> <h2 class="search-title"> <a href="{url}" target="_blank">{title}</a> </h2> <p class="search-date">{date}</p><p class="search-desc">{excerptContent200}</p></div></li>',
+        limit: 3
+    })
+})
+</script>
