@@ -1,0 +1,27 @@
+@import "bourbon"
+@import "neat"
+@import "variables"
+
+.affix-top, .affix
+	@include span-columns(1)
+	width: 150px
+	// background-color: #f3f3f3
+	padding: 0 20px
+	margin: 0 20px
+	// box-shadow: $box-shadow
+	@include media(max-width $large-screen)
+		display: none
+	span
+		font:
+			weight: 700
+			size: 1.2em
+		color: $primary-color
+		display: block
+		margin-bottom: 10px
+	ul
+		padding: 0
+		li
+			list-style: none
+			line-height: 1.8em
+.affix
+	top: 30px

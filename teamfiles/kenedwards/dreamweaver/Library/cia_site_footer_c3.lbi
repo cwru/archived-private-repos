@@ -1,0 +1,49 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- BEGIN SITE FOOTER COL 3 MODULE
+///////////////////////////////////////////////////////////// -->
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer-block footer-col-3">
+              <div class="container-inner">
+                <h2 tabindex="0">Social Media</h2>
+                  <div class="sr-only">
+                    <ul class="social-media-breadcrumb page-breadcrumb breadcrumb">
+                      <li>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/" target="_blank">Twitter</a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                      </li>
+                      <li>
+                        <a href="https://plus.google.com/" target="_blank">Google Plus</a>
+                      </li>
+                      <li>
+                        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+                      </li>
+                      <li>
+                        <a href="https://wordpress.com/" target="_blank">Wordpress</a>
+                      </li>
+                    </ul>
+                </div>
+                <div class="socicons" aria-hidden="true">
+                    <a href="https://www.facebook.com/" aria-hidden="true" target="_blank" class="socicon-btn socicon-btn-circle socicon-sm socicon-solid bg-blue font-white bg-hover-blue socicon-facebook" title="Facebook"></a>
+
+                    <a href="https://twitter.com/" aria-hidden="true" target="_blank" class="socicon-btn socicon-btn-circle socicon-sm socicon-solid bg-blue font-white bg-hover-blue socicon-twitter" title="Twitter"></a>
+
+                    <a href="https://www.instagram.com/" aria-hidden="true" target="_blank" class="socicon-btn socicon-btn-circle socicon-sm socicon-solid bg-blue font-white bg-hover-blue socicon-instagram" title="Instagram"></a>
+
+                    <a href="https://www.linkedin.com/" aria-hidden="true"  target="_blank" class="socicon-btn socicon-btn-circle socicon-sm socicon-solid bg-blue font-white bg-hover-blue socicon-linkedin" title="LinkedIn"></a>
+
+                    <a href="https://plus.google.com/" aria-hidden="true" target="_blank" class="socicon-btn socicon-btn-circle socicon-sm socicon-solid bg-blue font-white bg-hover-blue socicon-googleplus" title="Google Plus"></a>
+
+                    <a href="https://www.youtube.com/" aria-hidden="true" target="_blank" class="socicon-btn socicon-btn-circle socicon-sm socicon-solid bg-blue font-white bg-hover-blue socicon-youtube" title="YouTube"></a>
+                    
+                    <a href="https://wordpress.com/" aria-hidden="true" target="_blank" class="socicon-btn socicon-btn-circle socicon-sm socicon-solid bg-blue font-white bg-hover-blue socicon-wordpress" title="Wordpress"></a>
+                </div>
+              </div>
+            </div>

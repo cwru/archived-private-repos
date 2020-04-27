@@ -1,0 +1,115 @@
+<style>
+  @media print {  
+.sticky-wrapper{display:none;}
+header {display: none;}
+#content {display:none;}
+#comments {display:none;}
+sidebar {display:none;}
+footer {display:none;}
+img {max-width: 100% !important;}
+site-description {display:none;}
+site-title {display:none;}
+a:link, a:visited {
+   color: #00c;
+   font-weight: bold;
+   text-decoration: underline; }
+content a:link:after, content a:visited:after {
+   content: " (" attr(href) ") ";
+    
+}
+.mobile-nav-toggle{display:none;}
+  .mobile-nav-toggle_smartphone{display:none;}
+  
+  #search{display:none;}
+  #global-menu-toggle{display:none;}
+.cwru-links{display:none;}
+  .logo{display:block;}
+
+body {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    font-family: Arial,Georgia,serif;
+    line-height: 1.2;
+    width: 100%;
+    margin: 0;
+}
+p, table, ul, ol, dl, blockquote, pre, code, form {
+    margin: 0;
+    width: 100%;
+    font-size: .9em;
+}
+.container:before {
+    border: 1px solid #ccc;
+    content: "<t4 type='navigation' id='118'/>";
+    display: block;
+    font-style: italic;
+     font-size: .8em;
+    margin: 0;
+    padding: 2px 3px;
+   
+}
+h1 {
+    font-size: 1.8em;
+   
+	font-weight: normal;
+    margin: 0 0 0.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+    page-break-after: avoid;
+}
+h2 {
+    font-size: 1.6em;
+	    font-weight: normal;
+    margin: 0 0 0.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+    page-break-after: avoid;
+}
+h3 {
+    font-size: 1.4em;
+	    font-weight: normal;
+    margin: 0 0 0.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+    page-break-after: avoid;
+}
+h4 {
+    font-size: 1.2em;
+	    font-weight: normal;
+    margin: 0 0 0.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+    page-break-after: avoid;
+}
+h5 {
+    font-size: 1em;
+	    font-weight: normal;
+    margin: 0 0 0.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+    page-break-after: avoid;
+}
+  footerLinks, copyLegal{display:none;}
+
+a:link:after, a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 70%;
+    text-decoration: none;
+     color:#0066CC;
+}
+.doormat-image-right{display:none;}   
+.doormat-image-left{display:none;}
+  .mid-col-right{float:left;} .main-col{float:left;}
+  .right-col{width:100%;}
+ .left-col{float:none;}
+  .flexslider{display:none;}
+  .breadcrumb {display:none;}
+  .sidebar-menu{display:none;}
+  .mid-col{width:100%;}
+  .desktop-nav{display:none;}
+  .fb-page{display:none;}
+  .fb_iframe_widget{display:none;}
+  .featureTweet{display:none;}
+  .col-xs-12, .col-sm-6, .col-md-6, .col-lg-6{width:100%;}
+  iframe {display: none;}
+  .fb-reset{display:none;}
+  #fb-page{display:none;} 
+  #fb-root{display:none;}
+  hr{display:none;}
+  }
+</style>

@@ -1,0 +1,151 @@
+<t4 type="meta" meta="html_anchor" />
+<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 fullScreen650">
+  <a href="/its/its-development/service-catalog" style="float:right;font-size:.9em;">&lt;&lt; Back to Catalog</a>
+    <section class="mid-col-right main-col">
+    <div class="row">
+         <?php if (isset($_GET['captcha']) && $_GET['captcha'] === 's') {?>
+        
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+   <p style="float:left; padding: 1%; margin: 2%; font-weight: bold; background-color: rgb(223, 240, 216); color: rgb(114, 20, 20);">Thank you for your succesful request. We will be in touch with you shortly!</p>
+    </div>
+        </div>
+
+
+
+
+        <?php  }
+?>       
+       
+<a class="anchor" name="<t4 type="meta" meta="content_id" />"></a>
+
+
+<div class='col-xs-12 col-sm-12 col-md-12 col-lg-12' >
+
+<h4>Service Description</h4>
+  
+
+  
+<t4 type="content" name="Service Image" output="selective-output"  formatter='path/*' process-format="true" format="<img style='width: 20%;' class='fig-img-right' src='<t4 type=&quot;content&quot; name=&quot;Service Image&quot; output=&quot;normal&quot; modifiers=&quot;&quot; formatter=&quot;path/*&quot;  />'>" />
+<t4 type="content" name="Service Description" output="normal" modifiers=""  />
+<hr style="border: 1px solid #EEE; border-bottom: none;" /></div>
+
+
+<t4 type="content" name="Service Benefits" output="selective-output" process-format="true" format="
+<div class='<t4 type=&quot;content&quot; name=&quot;Benefits Size&quot; output=&quot;normal&quot; modifiers=&quot;&quot;  />' ><h4>Benefits</h4>$value<hr style='border: 1px solid #EEE; border-bottom: none;' /></div>" />
+
+      <!--TECH DETAILS-->
+
+<t4 type="content" name="Technical Details Content" output="selective-output" process-format="true" format="
+<div class='col-xs-12 col-sm-12 col-md-12 col-lg-12' ><h4>Technical Details</h4>$value<hr style='border: 1px solid #EEE; border-bottom: none;' /></div>" />
+      
+      
+<t4 type="content" name="Customers" output="selective-output" process-format="true" format="
+<div class='<t4 type=&quot;content&quot; name=&quot;Customers Size&quot; output=&quot;normal&quot; modifiers=&quot;&quot;  />' ><h4>Customers</h4>$value<hr style='border: 1px solid #EEE; border-bottom: none;' /></div>" />
+
+      
+
+<!--Get the Service-->
+        <t4 type="content" name="Get The Service" output="selective-output" process-format="true" format="
+<div class='<t4 type=&quot;content&quot; name=&quot;Get Service Size&quot; output=&quot;normal&quot; modifiers=&quot;&quot;  />' ><h4>Get The Service</h4>$value<hr style='border: 1px solid #EEE; border-bottom: none;' /></div>" />
+
+
+
+<div style="clear:both"></div>
+</div><!--.row-->
+
+</section><!--.mid-col-->
+
+</div>
+
+<!--RIGHT COLUMN-->
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 fullScreen650">
+    <section class="right-col">
+      <div class="row">
+
+        
+
+        
+        
+ 
+        
+<!--TRAINING DETAILS-->  
+<!--HIDE TRAINING
+         <t4 type="content" name="Training Description" output="selective-output" process-format="true" format=" 
+            <div class='doormat col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+    <img class='media-object doormat-image-right doormat-image-left' src='<t4 type=&quot;media&quot; id=&quot;92896&quot; formatter=&quot;path/*&quot;/>' alt='Training'/>
+   <div class='media-body'>
+    <h4 class='media-heading'>Training Materials</h4><t4 type=&quot;content&quot; name=&quot;Training Description&quot; output=&quot;normal&quot; modifiers=&quot;&quot;  /><br/>
+      
+      
+<t4 type=&quot;content&quot; name=&quot;Training Content&quot; output=&quot;selective-output&quot; process-format=&quot;true&quot; format=&quot; <a href='#trainingdetails' data-toggle='modal'>Click for training resources.</a>
+      
+      -->
+    
+      <!-- Modal -->
+        <!--HIDE MODAL
+        <div class='modal fade desktop-12 tablet-6 mobile-3' id='trainingdetails' style='background-color:transparent;border:none;box-shadow:none'> 
+  <div class='modal-dialog'> <div class='modal-content'> 
+  <div class='modal-header'> 
+  <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button> 
+  <h4 class='modal-title'>Training Materials</h4> </div> 
+  <div class='modal-body'><t4 type='content' name='Training Content' output='normal' modifiers='medialibrary, nav_sections'  /></div> 
+  <div class='modal-footer'> 
+  <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button> </div> </div><!-- /.modal-content --> 
+  <!--HIDE MODAL-->
+  <!--HIDE MODAL</div>-->
+  <!-- /.modal-dialog --> <!-- /.modal -->
+  <!--HIDE MODAL</div>&quot; />
+
+  </div></div>" />
+  -->
+<!--INFORMATIONAL DETAILS-->        
+        
+
+         <t4 type="content" name="Informational Documents Content" output="selective-output" process-format="true" format=" 
+            <div class='doormat col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+   
+   <div class='media-body'>
+    <h4 class='media-heading'>Informational and Training Documents</h4><t4 type=&quot;content&quot; name=&quot;Informational Docs Description&quot; output=&quot;normal&quot; modifiers=&quot;&quot;  /><br/>
+      
+      
+<t4 type=&quot;content&quot; name=&quot;Informational Documents Content&quot; output=&quot;selective-output&quot; process-format=&quot;true&quot; format=&quot;<a href='#infodetails' data-toggle='modal'>Click for a list of informational documents.</a>
+      
+      
+      <!-- Modal --><div class='modal fade desktop-12 tablet-6 mobile-3' id='infodetails' style='background-color:transparent;border:none;box-shadow:none'> 
+  <div class='modal-dialog'> <div class='modal-content'> 
+  <div class='modal-header'> 
+  <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button> 
+  <h4 class='modal-title'>Informational Documents</h4> </div> 
+  <div class='modal-body'><t4 type='content' name='Informational Documents Content' output='normal' modifiers='medialibrary, nav_sections'  /></div> 
+  <div class='modal-footer'> 
+  <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button> </div> </div><!-- /.modal-content --> </div><!-- /.modal-dialog --> <!-- /.modal --></div>&quot; />
+
+  </div></div>" />
+ <!--Request Additional Information-->        
+        
+         <t4 type="content" name="Request Additional Information Form" output="selective-output" process-format="true" format=" 
+            <div class='doormat col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+    <img class='media-object doormat-image-right doormat-image-left' src='<t4 type=&quot;media&quot; id=&quot;92893&quot; formatter=&quot;path/*&quot;/>' alt='Service Level Agreement'/>
+   <div class='media-body'>
+    <h4 class='media-heading'>Request Additional Information</h4><t4 type=&quot;content&quot; name=&quot;Request Additional Information&quot; output=&quot;normal&quot; modifiers=&quot;&quot;  /><br/>
+      
+      
+         <t4 type=&quot;content&quot; name=&quot;Request Additional Information Form&quot; output=&quot;selective-output&quot; process-format=&quot;true&quot; format=&quot;<a href='#RequestAdditionalInformationForm' data-toggle='modal'>Click To Request More Information.</a>
+      
+      
+      <!-- Modal --><div class='modal fade desktop-12 tablet-6 mobile-3' id='RequestAdditionalInformationForm' style='background-color:transparent;border:none;box-shadow:none'> 
+  <div class='modal-dialog'> <div class='modal-content'> 
+  <div class='modal-header'> 
+  <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button> 
+  <h4 class='modal-title'>Request Additional Information Form</h4> </div> 
+  <div class='modal-body'><t4 type='content' name='Request Additional Information Form' output='normal' modifiers='medialibrary, nav_sections'  /></div> 
+  <div class=&quot;modal-footer&quot;> 
+  <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button> </div> </div><!-- /.modal-content --> </div><!-- /.modal-dialog --> <!-- /.modal --></div>&quot; />
+
+  </div></div>" />
+              
+        <div style="clear:both"></div>
+          </section>
+</div>      
+        

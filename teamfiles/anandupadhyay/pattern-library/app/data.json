@@ -1,0 +1,52 @@
+{
+  "homeLinks": [{
+    "href": "#color-palette",
+    "title": "Color Palette"
+  }, {
+    "href": "#typography",
+    "title": "Typography"
+  }, {
+    "href": "#blockquote",
+    "title": "Block Quotes"
+  }, {
+    "href": "#buttons",
+    "title": "Buttons"
+  }, {
+  "href": "#well",
+  "title": "Well"
+  }],
+
+  "componentLinks": [{
+    "href": "#accordion",
+    "title": "Accordion"
+  }, {
+    "href": "#breadcrumbs",
+    "title": "Breadcrumbs"
+  }, {
+    "href": "#carousel-photo",
+    "title": "Carousel - Photo"
+  }, {
+    "href": "#carousel-slider",
+    "title": "Carousel - Slider"
+  }, {
+    "href": "#eventlist",
+    "title": "Event List"
+  }, {
+    "href": "#table",
+    "title": "Table"
+  }, {
+    "href": "#tabs",
+    "title": "Tabs"
+  }],
+
+  "layoutLinks": [{
+    "href": "#portlet",
+    "title": "Portlet"
+  }, {
+    "href": "#profile",
+    "title": "Profile"
+  }, {
+  "href": "#articlelist",
+  "title": "Article Lists"
+  }]
+}

@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Quikpay Redirect</title>
+
+<?php
+
+
+// Get user variables
+//
+
+    $userChoice3 = $_GET["userChoice3"];
+    $userChoice4 = $_GET["userChoice4"];
+    $userChoice5 = $_GET["userChoice5"];
+    $userChoice6 = $_GET["userChoice6"];
+    $userChoice7 = $_GET["userChoice7"];
+    $userChoice8 = $_GET["userChoice8"];
+    $userChoice9 = $_GET["userChoice9"];
+    $userChoice10 = $_GET["userChoice10"];
+    $userChoice11 = $_GET["userChoice11"];
+    $userChoice12 = $_GET["userChoice12"];
+    $userChoice13 = $_GET["userChoice13"];
+    $userChoice14 = $_GET["userChoice14"];
+    $userChoice15 = $_GET["userChoice15"];
+    $userChoice16 = $_GET["userChoice16"];
+    $userChoice17 = $_GET["userChoice17"];
+    $userChoice18 = $_GET["userChoice18"];
+    $userChoice19 = $_GET["userChoice19"];
+    $userChoice20 = $_GET["userChoice20"];
+    $userChoice21 = $_GET["userChoice21"];
+    $userChoice22 = $_GET["userChoice22"];
+    $userChoice23 = $_GET["userChoice23"];
+    $userChoice24 = $_GET["userChoice24"];
+    $userChoice25 = $_GET["userChoice25"];
+
+
+//
+//Get transaction variables
+//
+   $transactionType = $_GET["transactionType"];
+   $transactionStatus = $_GET["transactionStatus"];
+   $transactionId = $_GET["transactionId"];
+   $transactionTotalAmount = $_GET["transactionTotalAmount"];
+   $transactionDate = $_GET["transactionDate"];
+   $transactionAcountType = $_GET["transactionAcountType"];
+   $transactionDescription = $_GET["transactionDescription"];
+   $orderType = $_GET["orderType"];
+   $payerFullName = $_GET["payerFullName"];
+   $accountHolderName = $_GET["accountHolderName"];
+   $email = $_GET["email"];
+//
+   $final_total=number_format(($transactionTotalAmount/100),2);
+$to = "$email";
+$subject = "IDEAS Symposium Registration Information";
+
+$message = "
+<html>
+<head>
+<title>HTML email</title>
+</head>
+<body>
+<p>IDEAS Symposium Quikpay Registration Information</p>
+<h4>SUCCESS!</h4>               
+<p>Thank you, ".$_GET['accountHolderName']."! Your registration for the Ideas Symposium has been successful! Per your request, your ".$_GET['transactionAcountType']." has been charged $ $final_total. Listed below are the details of your registration to make adjustments of corrections please contact Ashley Mathews at axm825@case.edu</p>
+
+<h4>Registration Information</h4>
+
+
+<p>Title-  ".$_GET['userChoice3']."</p>
+<p>First Name-  ".$_GET['userChoice4']."</p>
+<p>Last Name-  ".$_GET['userChoice5']."</p>
+<p>Institution-  ".$_GET['userChoice6']."</p>
+<p>Degree-  ".$_GET['userChoice7']."</p>
+<p>Specialty-  ".$_GET['userChoice8']."</p>
+<p>Address-  ".$_GET['userChoice9']."</p>
+<p>City-  ".$_GET['userChoice10']."</p>
+<p>State-  ".$_GET['userChoice11']."</p>
+<p>Zip-  ".$_GET['userChoice12']."</p>
+<p>Phone-  ".$_GET['userChoice13']."</p>
+<p>Email-  ".$_GET['userChoice14']."</p>
+<p>SSN-  ".$_GET['userChoice15']."</p>
+<p>How did you hear about the event?-  ".$_GET['userChoice16']."</p>
+<p>Keynote-  ".$_GET['userChoice17']."</p>
+<p>Welcome Reception-  ".$_GET['userChoice18']."</p>
+<p>9-7 Workshop-  ".$_GET['userChoice19']."</p>
+<p>9-8 Workshop-  ".$_GET['userChoice20']."</p>
+<p>9-9 Clinical-  ".$_GET['userChoice21']."</p>
+<p>Physician Social Reception-  ".$_GET['userChoice22']."</p>
+<p>9-10 Clinical-  ".$_GET['userChoice23']."</p>
+<p>9-10 Lab Session-  ".$_GET['userChoice24']."</p>
+<h4>Total Paid-  ".$_GET['userChoice25']."</h4>
+
+
+<p>Transaction Type-  ".$_GET['transactionType']."</p>
+<p>Transaction Status-  ".$_GET['transactionStatus']."</p>
+<p>Transaction ID-  ".$_GET['transactionId']."</p>
+<p>Transaction Total Amount-  ".$_GET['transactionTotalAmount']."</p>
+<p>Transaction Date-  <?php echo $transactionDate?>".$_GET['transactionType']."</p>
+<p>Transaction Account Type-  ".$_GET['transactionDate']."</p>
+<p>Transaction Description-  ".$_GET['transactionDescription']."</p>
+<p>Order Type-  ".$_GET['orderType']."</p>
+<p>Payer Full Name-  ".$_GET['payerFullName']."</p>
+<p>Account Holder Name-  ".$_GET['accountHolderName']."</p>
+<p>Account Holder Email-  ".$_GET['email']."</p>
+
+</body>
+</html>
+";
+
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: <noreply@case.edu>' . "\r\n";
+$headers .= 'Cc: feh12@case.edu' . "\r\n";
+
+mail($to,$subject,$message,$headers);
+
+
+
+   $final_total=number_format(($transactionTotalAmount/100),2);
+
+?>
+</head>
+
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+
+</head>
+<body>
+<div class="content-sub col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	<div id="container"> 
+
+		<div id="bodyright">
+      		<div id="resourcesbody">
+      	
+
+<h4>SUCCESS!</h4>               
+<p>Thank you, <?php echo $accountHolderName?>! Your registration for the Ideas Symposium has been successful! Per your request, your <?php echo $transactionAcountType?> has been charged $<?php echo $final_total?>. You will receive an email confirming this at <?php echo $email?> within 48 hours.</p>
+
+
+<p><a href="http://webcms.case.edu/medicine/cddrcc/cleveland-ideas/">Return to The Ideas Symposium Information Page</p>
+
+</div>  <!-- end resouresbody -->
+</div>  <!-- end bodyright -->
+</div>  <!-- end container -->
+
+</div>
+</body>
+</html>

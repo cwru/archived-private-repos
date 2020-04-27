@@ -1,0 +1,319 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*top banner code only*/
+#TopBanner{
+    background-size: 100% ;
+    background-image: url("<t4 type='media' id='243030' formatter='path/*'/>");
+    height: auto; 
+    margin-bottom: -156px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#TopBanner H1 {
+    font-size:60px;
+	color: #fff;
+	text-align: middle; 
+	font-weight: initial; 
+	width: 50%;
+	margin: 0 auto;
+}
+#ffMainLogo{
+    margin-left: 40%;
+    margin-right: 40%;
+    max-width: 60%;
+    font-size:15px;
+	width:17%;
+	height:10%;
+}
+#connecting{
+    font-weight: 700;
+    font-weight: bold;
+    background-color:#e5e5e5; 
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    height: auto;
+}
+#conecting p{
+	width: 50%; 
+	text-align: middle;
+	margin: 0 auto;
+}
+/*three ways to give*/
+.story{
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+}
+.story h1{
+text-align:center;
+line-height: 120px;
+color: #003756;
+font-weight: bold;
+}
+.story h3{
+color: #003756;
+font-weight: bold;
+}
+.give {
+    width: 31%;
+    float: left;
+    padding: 1%;
+    line-height: 30px;
+    background-color: #ffffff;
+}
+.give h3{
+	color: #003756;
+	font-weight: bold;
+}
+/*quote code only*/
+#quote{
+font-weight: 20;
+background-color:#003756; 
+width: 100%;
+text-align: center;
+padding-top: 50px;
+height: 400px;
+}
+#quote h3{
+	width: 50%;
+	text-align: middle;
+	color: #fff;
+	margin: 0 auto;
+}
+#quote p{
+	width: 50%; 
+	text-align: middle; 
+	font-weight: 
+	bold;color: #fff; 
+	margin: 0 auto;
+}
+/*Competitive Code*/
+#competitive{
+font-weight: 700;
+background-color:#003756; 
+width: 100%;
+text-align: center;
+padding-top: 50px;
+height: 200px;
+}
+#competitive h1 {
+	text-align: middle;
+	color: #fff;
+	width: 50%;
+	margin: 0 auto;
+}
+/*admit rate*/
+#admit{
+font-weight: 700;
+background-color:#003756; 
+width: 100%;
+text-align: center;
+padding-top: 50px;
+height: 200px;
+}
+#year{
+width: 100%;
+
+}
+#admit h2{
+text-align: middle;
+color: #fff;
+width: 50%;
+margin: 0 auto;
+}
+/*assistance code*/
+#assistance{
+font-weight: 700;
+background-image: url("<t4 type='media' id='243030' formatter='path/*'/>");
+width: 100%;
+text-align: center;
+padding-top: 30px;
+height: 250px;
+}
+#percent{
+    width: 10%;
+    float: left;
+    padding: 1%;
+    color: #fff;
+    margin-left: 32%;
+    font-size: 127px; 
+}
+#pertext{
+    color: #fff;
+    width: 19%;
+    float: right;
+    padding: 1%;
+    margin-right: 31%;
+    font-size: 32px; 
+    margin-top: 30px;
+}
+/*about page*/
+#abouttop h1{
+	color: #fff;
+	text-align: middle;
+	 font-weight: initial; 
+	 width: 100%;
+}
+#abouttop h2{
+	color: #fff;
+	text-align: middle; 
+	font-weight: initial; 
+	width: 100%;
+}
+#abouttop h4{
+	color:#fff;
+	text-align: middle;
+	 margin-left:27%; 
+	 width: 44%;
+}
+/*Donation Links*/
+.fundforward {
+    background:  #0a304e; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+   
+}
+
+.howfund {
+	width: 33%;
+	float: left;
+	background: #0a304e;
+	color: #fff;
+}
+
+.howfund p {
+     margin: 0;
+}
+.giveway {
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+
+
+img.fig-img
+ {
+ 	position: relative;
+	max-width: 100%;
+ 	display: inline-block;
+ 	vertical-align: middle;
+        width: 100%
+ }
+
+a[href^=tel] {
+     color: white;
+}
+@media only screen and (max-width: 1200px) {
+#assistance{
+padding-top: 25px;
+height: 350px;
+font-size: 20px;
+
+}
+#pertext{
+    width: 100%;
+    margin: 0;
+ }
+#percent{
+    width: 100%;
+    margin:0;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+#TopBanner {
+    padding-top: 10px;
+	padding-bottom: 10px;
+    height: auto;
+	    background-size: auto;
+   }
+#TopBanner h1 {
+      font-size: 30px;
+   }
+   #ffMainLogo{
+    margin-top: 20px;
+    max-width: 30%;
+    font-size:15px;
+    width:100%; 
+   /* height:15%; */
+}
+}
+@media only screen and (max-width: 767px) {
+#connecting{
+    padding: 25px;
+    height: auto;
+}
+#connecting h1 {
+      font-size: 20px;
+   }
+#TopBanner {
+    padding-top: 15px;
+    height: auto;
+   }
+#TopBanner h1 {
+      font-size: 20px;
+   }
+.give {
+width:100%;
+}
+#quote{
+padding-top: 25px;
+}
+#quote h3{
+ font-size: 15px;
+}
+#competitive{
+padding-top: 25px;
+height: 300px;
+}
+  #competitive h1 {
+      font-size: 27px;
+      width: 100%;
+   }
+   #admit{
+padding-top: 25px;
+padding-bottom: 25px;
+height: auto;
+font-size: 20px;
+}
+#admit h1{
+width: 75%;
+font-size: 27px;
+}
+
+#admit h2{
+width: 75%;
+}
+.howfund {
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.giveway {
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+
+center {
+    margin-top: 25px;
+}
+
+.tealimage h2 {
+	font-size: .7em;
+	top: 20%
+}
+}
+@media screen and (min-width: 451px) and (max-width: 524px) {
+.give {
+width:100%;
+}
+.tealimage h2 {
+		font-size: .9em;
+		top: 20%
+	}
+}

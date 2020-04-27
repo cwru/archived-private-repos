@@ -1,0 +1,32 @@
+<div class='doormat <t4 type="content" name="Size" output="normal" modifiers=""  />'>
+  <a class="" href="<t4 type="content" name="Internal Link Page" output="link-url" modifiers=""  /><t4 type="content" name="External Link URL" output="normal" modifiers=""  />">
+    <img class="media-object doormat-image-right <t4 type="content" name="Image on left side?" output="selective-output" modifiers="" format="doormat-image-left"  />" src="<t4 type="content" name="Doormat Image" output="normal" modifiers="" formatter="path/*" />" alt='<t4 type="content" name="Alternate text for image" output="normal" modifiers="striptags, htmlentities"  />'/>
+</a>
+
+  <div class="media-body">
+    <h4 class="media-heading"><t4 type="content" name="Title" output="normal" modifiers=""  /></h4>
+    <p class="doormat-p"><t4 type="content" name="Intro Text" output="normal" modifiers="nl2br"  />
+       
+       
+       <t4 type="content" name="Pop-up Content" output="selective-output" process-format="true" modifiers="" format="<a title=&quot;&quot; data-toggle=&quot;modal&quot; href=&quot;#myModal<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot;><t4 type=&quot;content&quot; name=&quot;Pop-up Title&quot; output=&quot;normal&quot; modifiers=&quot;htmlentities&quot;  /></a>" />
+       
+       
+      <t4 type="content" name="External Link URL" output="selective-output" process-format="true" modifiers="" format="<a target='_blank' href='$value'><t4 type=&quot;content&quot; name=&quot;More Link Text&quot; output=&quot;normal&quot; modifiers=&quot;htmlentities&quot;  /></a>" />
+      
+      
+      <t4 type="content" name="Internal Link Page" output="normal" modifiers="nav_sections"  />
+    </p>
+  </div>
+  
+  
+  <t4 type="content" name="Pop-up Content" output="selective-output" modifiers="" process-format="true" format=" 
+  <!-- Modal --><div class=&quot;modal fade desktop-12 tablet-6 mobile-3&quot; id=&quot;myModal<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; style=&quot;background-color:transparent;border:none;box-shadow:none&quot;> 
+  <div class=&quot;modal-dialog&quot;> <div class=&quot;modal-content&quot;> 
+  <div class=&quot;modal-header&quot;> 
+  <button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;>&times;</button> 
+  <h4 class=&quot;modal-title&quot;><t4 type=&quot;content&quot; name=&quot;Pop-up Title&quot; output=&quot;normal&quot; modifiers=&quot;&quot;  /></h4> </div> 
+  <div class=&quot;modal-body&quot;><t4 type=&quot;content&quot; name=&quot;Pop-up Content&quot; output=&quot;normal&quot; modifiers=&quot;medialibrary, nav_sections&quot;  /></div> 
+  <div class=&quot;modal-footer&quot;> 
+  <button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;>Close</button> </div> </div><!-- /.modal-content --> </div><!-- /.modal-dialog --> <!-- /.modal --></div>
+  " />
+</div>

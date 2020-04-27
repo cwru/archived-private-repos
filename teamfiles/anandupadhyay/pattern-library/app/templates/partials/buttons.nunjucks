@@ -1,0 +1,9 @@
+<h2 class="pattern-header" id="buttons">Buttons</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		{% include 'partials/mod/mod_buttongroup.html' %}
+	</div>
+	{% import 'partials/showcode.nunjucks' as showcode %}
+	{{ showcode.showmarkup("mod_buttongroup") }}
+	{{ showcode.showcss("mod_buttongroup") }}
+</section>

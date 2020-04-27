@@ -1,0 +1,19 @@
+{% extends "main.nunjucks" %}
+
+{% block content %}
+
+{% import 'macros/nav-macro.nunjucks' as nav %}
+{{nav.active('components')}}
+{% include 'macros/component-aside.nunjucks' %}
+<div class="contain-me">
+	<main>
+		{% include 'partials/accordion.nunjucks' %}
+		{% include 'partials/breadcrumbs.nunjucks' %}
+		{% include 'partials/carousel_photo.nunjucks' %}
+		{% include 'partials/carousel_slider.nunjucks' %}
+		{% include 'partials/eventlist.nunjucks' %}
+		{% include 'partials/table.nunjucks' %}
+		{% include 'partials/tabs.nunjucks' %}
+	</main>
+</div>
+{% endblock %}

@@ -1,0 +1,8 @@
+<h2 class="pattern-header" id="carousel-slider">Carousel - Slider</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		{% include 'partials/mod/mod_carousel_slider.html' %}
+	</div>
+	{% import 'partials/showcode.nunjucks' as showcode %}
+	{{ showcode.showmarkup("mod_carousel_slider") }}
+</section>

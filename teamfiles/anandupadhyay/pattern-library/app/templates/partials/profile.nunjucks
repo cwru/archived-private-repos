@@ -1,0 +1,10 @@
+<h2 class="pattern-header" id="profile">Profile</h2>
+<section class="pattern-section">
+	<div class="clearfix">
+		<div class="display-box bottompad40">
+			{% include 'partials/mod/mod_profile_responsive.html' %}
+		</div>
+	</div>
+	{% import 'partials/showcode.nunjucks' as showcode %}
+	{{ showcode.showmarkup("mod_profile_responsive") }}
+</section>

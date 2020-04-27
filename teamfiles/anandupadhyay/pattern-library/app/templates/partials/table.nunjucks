@@ -1,0 +1,9 @@
+<h2 class="pattern-header" id="table">Table</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		{% include 'partials/mod/mod_table.html' %}
+	</div>
+	{% import 'partials/showcode.nunjucks' as showcode %}
+	{{ showcode.showmarkup("mod_table") }}
+	{{ showcode.showcss("mod_table") }}
+</section>

@@ -1,0 +1,724 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "image-refresh/content-layout.html",
+			"settings":
+			{
+				"buffer_size": 2628,
+				"line_ending": "Windows",
+				"name": "<img src='<t4 type=\"content\" name=\"Media\" output=\""
+			}
+		},
+		{
+			"file": "image-refresh/main.css.html",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "au",
+		"selected_items":
+		[
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"view.run_command('example')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/image-refresh"
+	],
+	"file_history":
+	[
+		"/C/Users/kxe67/Desktop/index.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/image-refresh/main.css.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/footer.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/content-types/steller-parallax-panel/text-html.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/stylesheet.css",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/header.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/header.bak.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/footer.bak.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/Autoprefixer.sublime-settings",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/.gitignore",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/Meancode.sublime-project",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/content-types/stellar-end/text-html.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/content-types/stellar-start/text-html.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/content-types/stellar-start/text-hidden-head.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/content-types/steller-parallax-panel/text-hidden-head.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/stellar-mobile.js",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/stellar-script.js",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/t4/layout/1-col-full-width/footer.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/t4/layout/1-col-full-width/header.html",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/README.md",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/t4/layout/1-col-full-width/stylesheet.css",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/layout/bodyscript-no-sticky.js",
+		"/C/Users/kxe67/Documents/GitHub/KenEdwards/fundforward/t4/content-type",
+		"/C/Users/kxe67/AppData/Roaming/Sublime Text 3/Packages/User/T4/T4.py",
+		"/C/Users/kxe67/Documents/GitHub/T4-Documentation/.gitignore",
+		"/C/Users/kxe67/Documents/GitHub/T4-Documentation/README.md",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/.gitignore",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/library_cwru/index.html",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/library_cwru/colors-cwru.html",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/sass/bootstrap/_utilities.scss",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/sass/bootstrap/_scaffolding.scss",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/library_full/page_general_portfolio_3.html",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/assets/global/plugins/cubeportfolio/ajax/project3.html",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/assets/pages/scripts/portfolio-3.min.js",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/html/portfolio-3.min.js",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/assets/cwru/plugins/jQuery.isAlive/examples/butterfly/style.css",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/assets/cwru/plugins/parallax-scroll/demo/js/demo.min.js",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/PRI-Parallax/README.md",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/docs/index.html",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/bower_components/eventEmitter/README.md",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/sass/global/_colors.scss",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/bower_components/eventie/README.md",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/bower_components/hammerjs/README.md",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/assets/layouts/layout3/scripts/demo.js",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/assets/global/scripts/app.js",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/assets/layouts/layout/css/layout.css",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/framework/package.json",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/styleguide/sass/global/_colors.scss",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/styleguide/package.json",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/styleguide/assets/global/plugins/bootstrap/css/bootstrap.css",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/styleguide/sass/apps/ticket.scss",
+		"/C/Users/kxe67/Documents/GitHub/T4-Template-Refresh-2016/styleguide/assets/global/plugins/bootstrap/css/bootstrap.min.css",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_wizard.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_validation_states_md.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_validation_md.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_validation.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_layouts.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_input_mask.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_image_crop.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_icheck.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_fileupload.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_editable.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_dropzone.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_controls_md.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/form_controls.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/elements_steps.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/elements_ribbons.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/elements_lists.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ecommerce_products_edit.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ecommerce_products.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ecommerce_orders_view.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ecommerce_orders.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ecommerce_index.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/dashboard_3.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/dashboard_2.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_typeahead.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_select2.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_noui_sliders.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_multi_select.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_knob_dials.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_ion_sliders.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_form_tools.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_editors.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_date_time_pickers.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_context_menu.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_color_pickers.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_code_editors.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_bootstrap_touchspin.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_bootstrap_tagsinput.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_bootstrap_switch.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_bootstrap_select_splitter.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_bootstrap_select.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_bootstrap_maxlength.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/components_bootstrap_fileinput.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_morris.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_highstock.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_highmaps.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_highcharts.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_google.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_flowchart.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_flotcharts.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_echarts.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/charts_amcharts.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_todo_2.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_todo.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_ticket_staff.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_ticket_details.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_ticket_config.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_ticket.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_inbox.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/app_calendar.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_typography.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_tree.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_toastr.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_timeline.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_tiles.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_tabs_accordions_navs.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_socicons.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_session_timeout.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_page_progress_style_2.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_page_progress_style_1.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_notific8.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_nestable.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_modals.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_idle_timeout.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_icons.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_general.html",
+		"/C/Users/kxe67/Documents/GitHub/CWRU-Bootstrap/Framework/style_guide/ui_extended_modals.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+			"C:\\Users\\kxe67\\Documents\\GitHub\\T4-Template-Refresh-2016\\framework",
+			"C:\\Users\\kxe67\\Documents\\GitHub\\T4-Template-Refresh-2016\\framework\\assets",
+			"C:\\Users\\kxe67\\Documents\\GitHub\\T4-Template-Refresh-2016\\framework\\sass",
+			"<open files>",
+			"C:\\Users\\kxe67\\Documents\\GitHub\\CWRU-Bootstrap\\Framework",
+			"<current file>",
+			"",
+			"C:\\Users\\kxe67\\Documents\\GitHub\\CWRU-Bootstrap\\Framework\\metronic_v4.5.3\\theme\\sass",
+			"C:\\Users\\kxe67\\Documents\\GitHub\\CWRU-Bootstrap\\Framework\\metronic_v4.5.3\\theme\\admin_3",
+			"C:\\Users\\kxe67\\Documents\\GitHub\\CWRU-Bootstrap\\Framework",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\admin_3",
+			"<open files>",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\sass",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\assets",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\admin_3",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\sass",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\admin_3",
+			"<open files>",
+			"",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\admin_3",
+			"<open files>",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\assets",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\admin_3",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme\\admin_3",
+			"C:\\Users\\kxe67\\Documents\\CWRU-Bootstrap\\metronic_v4.5.3\\theme"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pull-",
+			"sr-only",
+			"brandColors",
+			"blue-steel",
+			"BEGIN QUICK SIDEBAR",
+			"CWRU-Bootstrap",
+			"<button type=\"button\" class=\"btn grey btn-outline sbold uppercase\">Help</button>",
+			"                <button type=\"button\" class=\"btn grey btn-outline sbold uppercase\">Help</button>\n",
+			"                        <div class=\"page-toolbar\">\n\n                        </div>\n",
+			"                            <!-- BEGIN THEME PANEL -->\n                            <div class=\"btn-group btn-theme-panel\">\n                                <a href=\"javascript:;\" class=\"btn dropdown-toggle\" data-toggle=\"dropdown\">\n                                    <i class=\"icon-settings\"></i>\n                                </a>\n                                <div class=\"dropdown-menu theme-panel pull-right dropdown-custom hold-on-click\">\n                                    <div class=\"row\">\n                                        <div class=\"col-md-6 col-sm-6 col-xs-12\">\n                                            <h3>THEME COLORS</h3>\n                                            <div class=\"row\">\n                                                <div class=\"col-md-6 col-sm-6 col-xs-12\">\n                                                    <ul class=\"theme-colors\">\n                                                        <li class=\"theme-color theme-color-default\" data-theme=\"default\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Default</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-blue-hoki\" data-theme=\"blue-hoki\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Blue Hoki</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-blue-steel\" data-theme=\"blue-steel\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Blue Steel</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-yellow-orange\" data-theme=\"yellow-orange\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Orange</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-yellow-crusta\" data-theme=\"yellow-crusta\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Yellow Crusta</span>\n                                                        </li>\n                                                    </ul>\n                                                </div>\n                                                <div class=\"col-md-6 col-sm-6 col-xs-12\">\n                                                    <ul class=\"theme-colors\">\n                                                        <li class=\"theme-color theme-color-green-haze\" data-theme=\"green-haze\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Green Haze</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-red-sunglo\" data-theme=\"red-sunglo\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Red Sunglo</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-red-intense\" data-theme=\"red-intense\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Red Intense</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-purple-plum\" data-theme=\"purple-plum\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Purple Plum</span>\n                                                        </li>\n                                                        <li class=\"theme-color theme-color-purple-studio\" data-theme=\"purple-studio\">\n                                                            <span class=\"theme-color-view\"></span>\n                                                            <span class=\"theme-color-name\">Purple Studio</span>\n                                                        </li>\n                                                    </ul>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <div class=\"col-md-6 col-sm-6 col-xs-12 seperator\">\n                                            <h3>LAYOUT</h3>\n                                            <ul class=\"theme-settings\">\n                                                <li> Theme Style\n                                                    <select class=\"theme-setting theme-setting-style form-control input-sm input-small input-inline tooltips\" data-original-title=\"Change theme style\" data-container=\"body\" data-placement=\"left\">\n                                                        <option value=\"boxed\" selected=\"selected\">Square corners</option>\n                                                        <option value=\"rounded\">Rounded corners</option>\n                                                    </select>\n                                                </li>\n                                                <li> Layout\n                                                    <select class=\"theme-setting theme-setting-layout form-control input-sm input-small input-inline tooltips\" data-original-title=\"Change layout type\" data-container=\"body\" data-placement=\"left\">\n                                                        <option value=\"boxed\" selected=\"selected\">Boxed</option>\n                                                        <option value=\"fluid\">Fluid</option>\n                                                    </select>\n                                                </li>\n                                                <li> Top Menu Style\n                                                    <select class=\"theme-setting theme-setting-top-menu-style form-control input-sm input-small input-inline tooltips\" data-original-title=\"Change top menu dropdowns style\" data-container=\"body\"\n                                                    data-placement=\"left\">\n                                                        <option value=\"dark\" selected=\"selected\">Dark</option>\n                                                        <option value=\"light\">Light</option>\n                                                    </select>\n                                                </li>\n                                                <li> Top Menu Mode\n                                                    <select class=\"theme-setting theme-setting-top-menu-mode form-control input-sm input-small input-inline tooltips\" data-original-title=\"Enable fixed(sticky) top menu\" data-container=\"body\" data-placement=\"left\">\n                                                        <option value=\"fixed\">Fixed</option>\n                                                        <option value=\"not-fixed\" selected=\"selected\">Not Fixed</option>\n                                                    </select>\n                                                </li>\n                                                <li> Mega Menu Style\n                                                    <select class=\"theme-setting theme-setting-mega-menu-style form-control input-sm input-small input-inline tooltips\" data-original-title=\"Change mega menu dropdowns style\" data-container=\"body\"\n                                                    data-placement=\"left\">\n                                                        <option value=\"dark\" selected=\"selected\">Dark</option>\n                                                        <option value=\"light\">Light</option>\n                                                    </select>\n                                                </li>\n                                                <li> Mega Menu Mode\n                                                    <select class=\"theme-setting theme-setting-mega-menu-mode form-control input-sm input-small input-inline tooltips\" data-original-title=\"Enable fixed(sticky) mega menu\" data-container=\"body\"\n                                                    data-placement=\"left\">\n                                                        <option value=\"fixed\" selected=\"selected\">Fixed</option>\n                                                        <option value=\"not-fixed\">Not Fixed</option>\n                                                    </select>\n                                                </li>\n                                            </ul>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <!-- END THEME PANEL -->",
+			"        <!-- BEGIN THEME LAYOUT SCRIPTS -->\n        <script src=\"../assets/layouts/scripts/layout.min.js\" type=\"text/javascript\"></script>\n        <script src=\"../assets/layouts/scripts/demo.min.js\" type=\"text/javascript\"></script>\n        <script src=\"../assets/global/scripts/quick-sidebar.min.js\" type=\"text/javascript\"></script>\n        <!-- END THEME LAYOUT SCRIPTS -->\n",
+			"../assets/layouts/layout3/scripts/",
+			"/assets/layouts/layout3/img/",
+			"../assets/layouts/layout3/img/logo-default.jpg",
+			"../assets/layouts/layout3/css/",
+			"../assets/layouts/layout3/css/layout.min.css",
+			"../assets/layouts/global/scripts/quick-sidebar.min.js",
+			"quick-sidebar",
+			"Coding & Extending",
+			"Metronic",
+			"End Of Page",
+			"Template Structure",
+			"references",
+			"#log",
+			"$colors",
+			"hover",
+			"337ab7",
+			"<a href=\"mailto:info@metronic.com\">info@metronic.com</a>",
+			"2014 &copy; Metronic by keenthemes.",
+			"<a href=\"http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes\" title=\"Purchase Metronic just for 27$ and get lifetime updates for free\" target=\"_blank\">Purchase Metronic!</a>",
+			"<span class=\"username username-hide-mobile\">Nick</span>",
+			"<title>Metronic |",
+			"<!-- \nTemplate Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6\nVersion: 4.5.3\nAuthor: KeenThemes\nWebsite: http://www.keenthemes.com/\nContact: support@keenthemes.com\nFollow: www.twitter.com/keenthemes\nLike: www.facebook.com/keenthemes\nPurchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes\nLicense: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.\n-->",
+			"217ebd",
+			".badge-success",
+			".label-success",
+			"Marcus Doe",
+			"tab",
+			":hover",
+			"36c6d3",
+			"3598dc",
+			".blue ",
+			"/global/css/components.min.css",
+			".blue",
+			"32c5d2",
+			"style_color",
+			"/layouts/layout3/css/themes/default.min.css",
+			"purple",
+			"default",
+			"/layouts/layout3/css/cwru.css",
+			"/assets/layouts/layout3/css/custom.css",
+			"/assets/layouts/layout3/css/custom.min.css",
+			"/global/scripts/app.min.js",
+			"<span class=\"username username-hide-mobile\">Nick</span>",
+			"Nick",
+			"btn-circle ",
+			"jQuery(document).ready(function()",
+			"metronic",
+			"App.init(); // init metronic core componets",
+			"<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam dolore. </p>",
+			"info@metronic.com",
+			"2015 &copy; CWRU",
+			"<a href=\"http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes\" title=\"Purchase Metronic just for 27$ and get lifetime updates for free\" target=\"_blank\">Purchase Metronic!</a>",
+			"2014 &copy; Metronic by keenthemes",
+			"<title>Metronic",
+			"Version: 4.5.3\nAuthor: KeenThemes\nWebsite: http://www.keenthemes.com/\nContact: support@keenthemes.com\nFollow: www.twitter.com/keenthemes\nLike: www.facebook.com/keenthemes\nPurchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes\n</html>",
+			"Version: 4.5.3\nAuthor: KeenThemes\nWebsite: http://www.keenthemes.com/\nContact: support@keenthemes.com\nFollow: www.twitter.com/keenthemes\nLike: www.facebook.com/keenthemes\nPurchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes\nLicense: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.",
+			"Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6",
+			"Case Western Reserve University",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CWRU-Framework",
+			"",
+			"                        <div class=\"page-toolbar\">\n				<button type=\"button\" class=\"btn grey btn-outline sbold uppercase\">Help</button>\n                        </div>\n",
+			"",
+			"../assets/layouts/scripts/",
+			"/assets/layouts/img/",
+			"../assets/layouts/img/logo-default.jpg",
+			"../assets/layouts/css/",
+			"../assets/layouts/css/layout.min.css",
+			"../assets/global/scripts/quick-sidebar.min.js",
+			"CWRU-Bootstrap",
+			"<a href=\"mailto:ken.edwards@case.edu\">ken.edwards@case.edu</a>",
+			"2015 &copy; Case Western Reserve University.",
+			"",
+			"<span class=\"username username-hide-mobile\">Ken</span>",
+			"<title>CWRU |",
+			"",
+			"Ken Edwards",
+			"0a304e",
+			"/global/css/components.cwru.css",
+			"0a304e",
+			"/layouts/layout3/css/themes/cwru.css",
+			"/layouts/layout3/css/custom.css",
+			"/assets/layouts/layout3/css/cwru.css",
+			"/assets/layouts/layout3/css/custom.css",
+			"/global/scripts/app.cwru.js",
+			"<span class=\"username username-hide-mobile\">Ken</span>",
+			"<p> Components for Page Layouts and Content Types for v2 template. </p>",
+			"info@case.edu",
+			"2015 &copy; Case Western Reserve University",
+			"",
+			"2015 &copy; CWRU",
+			"<title>CWRU",
+			"<!-- \nTemplate v2 // Version 1.0.0\nLast Updated // 01/07/2016 4:22 PM (EST)\n-->\n</html>",
+			"Last Updated // 01/07/2016 4:22 PM (EST)",
+			"Template v2 // Version 1.0.0"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "image-refresh/content-layout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2118,
+								2118
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "<img src='<t4 type=\"content\" name=\"Media\" output=\"",
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax_mgr_loaded": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "image-refresh/main.css.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax_mgr_loaded": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Meancode.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"project3.html",
+				"framework\\assets\\global\\plugins\\cubeportfolio\\ajax\\project3.html"
+			],
+			[
+				"portfolio-3.min.js",
+				"framework\\assets\\pages\\scripts\\portfolio-3.min.js"
+			],
+			[
+				"portfolio_3",
+				"framework\\library_full\\page_general_portfolio_3.html"
+			],
+			[
+				"index",
+				"Framework\\style_guide\\index.html"
+			],
+			[
+				"bootstrap",
+				"Framework\\html\\bootstrap.min.css"
+			],
+			[
+				"ui_buttons",
+				"Framework\\metronic_v4.5.3\\theme\\admin_3\\ui_buttons.html"
+			],
+			[
+				"ui_colors",
+				"Framework\\metronic_v4.5.3\\theme\\admin_3\\ui_colors.html"
+			],
+			[
+				"bootstrap.m",
+				"Framework\\metronic_v4.5.3\\theme\\html\\bootstrap.min.css"
+			],
+			[
+				"components.",
+				"metronic_v4.5.3\\theme\\assets\\global\\css\\components.css"
+			],
+			[
+				"page_user",
+				"metronic_v4.5.3\\theme\\admin_3\\page_user_profile_1.html"
+			],
+			[
+				"ui_co",
+				"metronic_v4.5.3\\theme\\admin_3\\ui_colors.html"
+			],
+			[
+				"app.",
+				"metronic_v4.5.3\\theme\\assets\\global\\scripts\\app.cwru.js"
+			],
+			[
+				"ui_col",
+				"metronic_v4.5.3\\theme\\admin_3\\ui_colors.html"
+			],
+			[
+				"inde",
+				"metronic_v4.5.3\\theme\\admin_3\\index.html"
+			],
+			[
+				"cwru",
+				"metronic_v4.5.3\\theme\\assets\\layouts\\layout3\\css\\cwru.css"
+			],
+			[
+				"ui_c",
+				"metronic_v4.5.3\\theme\\admin_3\\ui_colors.html"
+			],
+			[
+				"ind",
+				"metronic_v4.5.3\\theme\\admin_3\\index.html"
+			],
+			[
+				"app.min",
+				"metronic_v4.5.3\\theme\\assets\\global\\scripts\\app.min.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\kxe67\\Documents\\GitHub\\T4-Template-Refresh-2016\\CWRU-Bootstrap.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 339.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,18 @@
+<!-- OLD Working Version -->
+
+<figure class="<t4 type="media" attribute="Top Margin" output="selective-output" process-format="true" format="img-margin-top-$value " /><t4 type="media" attribute="Right Margin" output="selective-output" process-format="true" format="img-margin-right-$value " /><t4 type="media" attribute="Bottom Margin" output="selective-output" process-format="true" format="img-bottom-left-$value " /><t4 type="media" attribute="Left Margin" output="selective-output" process-format="true" format="img-margin-left-$value " /><t4 type="media" attribute="Alignment" output="selective-output" process-format="true" format="pull-$value" />">
+	<img src='<t4 type="content" name="Media" output="file" modifiers="" />' <t4 type="media" attribute="ALT Tag" format="alt=&quot;$value&quot;" /> class='img-responsive<t4 type="media" attribute="Width" output="selective-output" process-format="true" format=" img-width-$value" />'/>
+	<t4 type="media" attribute="Caption" format="<figcaption>$value<figcaption>" />
+</figure>
+
+<!-- NEW Working Version -->
+
+<figure class="<t4 type="media" attribute="Top Margin" output="selective-output" process-format="true" format="img-margin-top-$value " /><t4 type="media" attribute="Right Margin" output="selective-output" process-format="true" format="img-margin-right-$value " /><t4 type="media" attribute="Bottom Margin" output="selective-output" process-format="true" format="img-bottom-left-$value " /><t4 type="media" attribute="Left Margin" output="selective-output" process-format="true" format="img-margin-left-$value " /><t4 type="media" attribute="Alignment" output="selective-output" process-format="true" format="pull-$value" /><t4 type="media" attribute="Width" output="selective-output" process-format="true" format=" img-width-$value" />">
+	<img src='<t4 type="content" name="Media" output="file" modifiers="" />' <t4 type="media" attribute="Image ALT" format="alt=&quot;$value&quot;" /> class='img-responsive'/>
+	<t4 type="media" attribute="Caption" output="selective-output" process-format="true" format="<figcaption><p>$value</p></figcaption>" />
+</figure>
+
+
+<!-- PRODUCTION Version -->
+
+<span class='fig-img-<t4 type="media" attribute="float" />' style="<t4 type="media" attribute="widthPercentage"  editable="true" format="width: $value%;"/><t4 type="media" attribute="margin" format="margin: $value;" />"><img class="fig-img" src="<t4 type="content" name="Media" output="file" modifiers="" />" <t4 type="media" attribute="alt" format="alt=&quot;$value&quot;" /> /><t4 type="media" attribute="Caption" format="<span class='fig-img-caption'>$value</span>" /></span>
